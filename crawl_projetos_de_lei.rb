@@ -41,6 +41,6 @@ end
 
 all_projects = scrape(1)
 
-File.open("law-projects-#{DateTime.now.to_time.to_i}.json", "w") do |f|
+File.open("projetos-de-lei-#{DateTime.now.to_time.to_i}.json", "w") do |f|
   f.puts JSON.pretty_generate(all_projects)
 end
