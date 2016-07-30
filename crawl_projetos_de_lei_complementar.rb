@@ -7,7 +7,7 @@ def fix_encoding(str)
 end
 
 def url_for_page(page)
-  "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=#{page}"
+  "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm&Start=#{page}"
 end
 
 # TODO: scrape the next url instead of adding 99... we're missing some data at the last page
@@ -41,6 +41,6 @@ end
 
 all_projects = scrape(1)
 
-File.open("projetos-de-lei-#{DateTime.now.to_time.to_i}.json", "w") do |f|
+File.open("projetos-de-lei-complementar-#{DateTime.now.to_time.to_i}.json", "w") do |f|
   f.puts JSON.pretty_generate(all_projects)
 end
