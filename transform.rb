@@ -44,6 +44,8 @@ end
   end
 end
 
-File.open("vereadores.json", "w") { |f| f.puts JSON.pretty_generate(db) }
+File.open("vereadores.json", "w") { |f|
+  f.puts JSON.pretty_generate(db) 
+}
 
 pry
