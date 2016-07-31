@@ -17,7 +17,7 @@ class Crawler
   end
 
   def crawl
-    puts "- #{@name}"
+    puts "- CRAWLING #{@name}"
     projects = self.start_crawling
     File.open("#{@name}-#{DateTime.now.to_time.to_i}.json", "w") do |f|
       f.puts JSON.pretty_generate(projects)
