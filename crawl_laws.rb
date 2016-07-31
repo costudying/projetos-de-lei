@@ -56,15 +56,13 @@ class Crawler
   alias start_crawling crawl_page
 end
 
-crawlers = []
-
-crawlers << Crawler.new("projeto-lei-simples-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm")
-crawlers << Crawler.new("projeto-lei-compl-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm")
-crawlers << Crawler.new("projeto-lei-org-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm")
-crawlers << Crawler.new("projeto-lei-decr-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/DecretoInt?OpenForm")
-crawlers << Crawler.new("projeto-lei-resol-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/ResolucaoInt?OpenForm")
-crawlers << Crawler.new("indicacoes-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/IndInt?OpenForm")
-
-crawlers.each do |crawler|
+[
+  Crawler.new("projeto-lei-simples-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm"),
+  Crawler.new("projeto-lei-compl-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm"),
+  Crawler.new("projeto-lei-org-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm"),
+  Crawler.new("projeto-lei-decr-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/DecretoInt?OpenForm"),
+  Crawler.new("projeto-lei-resol-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/ResolucaoInt?OpenForm"),
+  Crawler.new("indicacoes-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/IndInt?OpenForm")
+].each do |crawler|
   crawler.crawl
 end
