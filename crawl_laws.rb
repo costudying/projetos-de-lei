@@ -17,6 +17,7 @@ class Crawler
   end
 
   def crawl
+    puts "- #{@name}"
     projects = self.start_crawling
     File.open("#{@name}-#{DateTime.now.to_time.to_i}.json", "w") do |f|
       f.puts JSON.pretty_generate(projects)
@@ -55,9 +56,13 @@ class Crawler
   alias start_crawling crawl_page
 end
 
-simple_law_crawler = Crawler.new("projeto-lei-simples-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm")
+crawlers = []
 
-[simple_law_crawler].each do |crawler|
+crawlers << Crawler.new("projeto-lei-simples-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm")
+crawlers << Crawler.new("projeto-lei-compl-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm")
+crawlers << Crawler.new("projeto-lei-org-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm")
+
+crawlers.each do |crawler|
   crawler.crawl
 end
 
@@ -68,7 +73,6 @@ end
 # def url_for_page(page)
 #   "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=#{page}"
 # end
-
 
 # def scrape(num)
 #   projects = []
