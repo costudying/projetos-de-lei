@@ -15,12 +15,15 @@ def load(filename)
   laws = Hash.new { |hsh, key| hsh[key] = [] }
   data.each do |d|
     d["author"].split(",").map { |name| sanitize(name) }.each do |author|
-      laws[author] << {
-        id: d["id"],
-        url: d["url"],
-        descr: d["description"],
-        date: d["date"]
-      }
+      id = d["id"]
+      if id.end_with?("2016") || id.end_with?("2015") || id.end_with?("2014") || id.end_with?("2013")
+        laws[author] << {
+          id: d["id"],
+          url: d["url"],
+          descr: d["description"],
+          date: d["date"]
+        }
+      end
     end
   end
   return laws
@@ -45,7 +48,7 @@ end
 end
 
 File.open("vereadores.json", "w") { |f|
-  f.puts JSON.pretty_generate(db) 
+  f.puts JSON.pretty_generate(db)
 }
 
 pry
