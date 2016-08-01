@@ -18,7 +18,10 @@
 <script type="text/javascript">
   L.mapbox.accessToken = 'pk.eyJ1IjoiY29uc3VsdG9ybW9iaWxlIiwiYSI6ImNpbGVqcGhkMjBtejV2bm1jMXhqN3ZhcGsifQ.MrxLW6ZkampJgd297kg_Zw';
   var map = L.mapbox.map('map', 'mapbox.streets')
-      .setView([40, -74.50], 9);
+      .setView([-22.946719, -43.194422], 9);
+  $.ajax('bairros-rj-kml/Flamengo.kml').done(function(xml) {
+    console.log(toGeoJSON.kml(xml));
+  });
 </script>
 </body>
 </html>
