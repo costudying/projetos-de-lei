@@ -1,5 +1,54 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script src='js/togeojson.js'></script>
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script type="text/javascript">
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY29uc3VsdG9ybW9iaWxlIiwiYSI6ImNpbGVqcGhkMjBtejV2bm1jMXhqN3ZhcGsifQ.MrxLW6ZkampJgd297kg_Zw';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v9',
+        center: [-68.13734351262877, 45.137451890638886],
+        zoom: 5
+    });
+    console.log('hi');
+
+    map.on('load', function () {
+        $.ajax('bairros-rj-kml/Flamengo.kml').done(function(xml) {
+            var collec = toGeoJSON.kml(xml);
+            var feat = collec.features[0];
+            map.addSource('flamengo', {type: 'geojson', data: feat});
+            map.addLayer({
+                'id': 'route',
+                'type': 'fill',
+                'source': 'flamengo',
+                'layout': {},
+                'paint': {
+                    'fill-color': '#088',
+                    'fill-opacity': 0.8
+                }
+            });
+        });
+    });
+    
+</script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
   <head>
   <meta charset=utf-8 />
   <title>A simple map</title>
@@ -24,4 +73,4 @@
   });
 </script>
 </body>
-</html>
+</html> -->
