@@ -38,7 +38,7 @@ Camorim
 Cidade de Deus
 Curicica
 Freguesia
-Gardênia Azul
+Gardênia
 Grumari
 Itanhangá
 Jacarepaguá
@@ -54,7 +54,7 @@ Vila Valqueire
 Bangu
 Deodoro
 Gericinó
-Jardim Sulacap
+Sulacap
 Magalhães Bastos
 Padre Miguel
 Realengo
@@ -147,7 +147,7 @@ Parque Colúmbia
 Pavuna
 Penha
 Penha Circular
-Quintino Bocaiuva
+Quintino
 Ricardo de Albuquerque
 Rocha Miranda
 Tomás Coelho
@@ -158,3 +158,4 @@ Vigário Geral
 Vila da Penha
 Vila Kosmos
 Vista Alegre
+Ilha do Governador
