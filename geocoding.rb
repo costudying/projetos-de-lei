@@ -11,8 +11,8 @@ end
 class Parser
   attr :result, :errors, :neighborhoods, :aliases
 
-  def initialize(filename)
-    @data = JSON.parse(File.read("indicacoes-2013-2016-1469924392.json"))
+  def initialize
+    @data = JSON.parse(File.read("vereadores.json"))
     @results = []
     @errors = []
     @neighborhoods = load_neighborhoods("neighborhoods.txt")
@@ -72,17 +72,34 @@ class Parser
   end
 
   def parse
-    @data.each do |data|
-      out = parse_address(data["description"])
-      if out != "ERROR"
-        @results << {
-          in: data["description"].strip,
-          out: out.strip
-        }
-      else
-        @errors << data["description"]
+    @indications = Hash.new { |hash, key| hash[key] = [] }
+    @data.map do |counselor_name, counselor_data|
+      unless counselor_data["indicacoes20132016"].nil?
+        counselor_data["indicacoes20132016"].each do |indication|
+          neighborhood = parse_address(indication["descr"]).strip
+          if neighborhood != "ERROR"
+            @results << {in: indication["descr"].strip, out: neighborhood}
+            @indications[counselor_name] << {
+              neighborhood: neighborhood,
+              date: indication["date"]
+            }
+          else
+            @errors << indication["descr"]
+          end
+        end
       end
     end
+    # @data.each do |data|
+    #   out = parse_address(data["description"])
+    #   if out != "ERROR"
+    #     @results << {
+    #       in: data["description"].strip,
+    #       out: out.strip
+    #     }
+    #   else
+    #     @errors << data["description"]
+    #   end
+    # end
   end
 
   def print_results
@@ -92,10 +109,13 @@ class Parser
       f.puts "\n\nRESULTS" + ("#" * 20)
       f.puts @results.map { |r| "#{r[:in]}\n#{r[:out]}\n"}.join("\n")
     end
+    File.open("indications.json", "w") do |f|
+      f.puts JSON.pretty_generate(@indications)
+    end
   end
 end
 
-parser = Parser.new("indicacoes-2013-2016-1469924392.json")
+parser = Parser.new
 parser.parse
 parser.print_results
 
