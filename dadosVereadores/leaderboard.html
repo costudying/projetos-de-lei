@@ -1,0 +1,73 @@
+<!doctype>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+		<script src="/normalize.js"></script>
+	</head>
+	<body>
+		<select class="vereadorSelect">
+		</select>
+		<img class="vereadorFoto" />
+		<p><b>Nome: </b><span class="vereadorNome"></span></p>
+		<img class="vereadorPartido" />
+		<p><b>Telefone: </b><span class="vereadorTelefone"></span></p>
+		<p><b>Email: </b><span class="vereadorEmail"></span></p>
+		<p><b>LeiCompl: </b><span class="vereadorLeiCompl"></span></p>
+		<p><b>LeiDecr: </b><span class="vereadorLeiDecr"></span></p>
+		<p><b>LeiOrg: </b><span class="vereadorLeiOrg"></span></p>
+		<p><b>LeiResol: </b><span class="vereadorLeiResol"></span></p>
+		<p><b>LeiSimpl: </b><span class="vereadorLeiSimpl"></span></p>
+		<script>
+$.get("/projeto-lei-compl-2013-2016-1469923786.json",{},function(data){
+	dadosLeiCompl = data;
+});
+$.get("/projeto-lei-decr-2013-2016-1469924054.json",{},function(data){
+	dadosLeiDecr = data;
+});
+$.get("/projeto-lei-org-2013-2016-1469923787.json",{},function(data){
+	dadosLeiOrg = data;
+});
+$.get("/projeto-lei-resol-2013-2016-1469924162.json",{},function(data){
+	dadosLeiResol = data;
+});
+$.get("/projeto-lei-simples-2013-2016-1469923785.json",{},function(data){
+	dadosLeiSimpl = data;
+});
+$.get("dados.json",{},function(data){
+	dados = data;
+	for(var index in data){
+		var vData = data[index];
+		var option = $("<option>");
+		option.text(vData.vereador);
+		option.val(index);
+		$(".vereadorSelect").append(option);
+	}
+	$(".vereadorSelect").change(function(evt){
+		var index = evt.target.selectedIndex;
+		$(".vereadorFoto").attr("src",dados[index].foto);
+		$(".vereadorNome").text(dados[index].vereador);
+		$(".vereadorPartido").attr("src",dados[index].partido);
+		$(".vereadorTelefone").text(dados[index].telefone);
+		$(".vereadorEmail").text(dados[index].email);
+		$(".vereadorLeiCompl").text(dadosLeiCompl.filter(function(d){
+			return normalize(d.author).includes(normalize(dados[index].vereador));
+		}).length);
+		$(".vereadorLeiOrg").text(dadosLeiOrg.filter(function(d){
+			return normalize(d.author).includes(normalize(dados[index].vereador));
+		}).length);
+		$(".vereadorLeiResol").text(dadosLeiResol.filter(function(d){
+			return normalize(d.author).includes(normalize(dados[index].vereador));
+		}).length);
+		$(".vereadorLeiSimpl").text(dadosLeiSimpl.filter(function(d){
+			return normalize(d.author).includes(normalize(dados[index].vereador));
+		}).length);
+		$(".vereadorLeiDecr").text(dadosLeiDecr.filter(function(d){
+			return normalize(d.author).includes(normalize(dados[index].vereador));
+		}).length);
+	});
+});
+		</script>
+	</body>
+</html>
