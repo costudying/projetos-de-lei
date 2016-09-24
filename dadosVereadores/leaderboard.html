@@ -3,8 +3,15 @@
 	<head>
 		<meta charset="utf-8" />
 		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+
 		<script src="/normalize.js"></script>
+		<script src="/count_by.js"></script>
+		<script src="/group_by.js"></script>
+		<script src="data_structure.js"></script>
+		<script src="prepare_dataset.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.min.js"></script>
+
 	</head>
 	<body>
 		<select class="vereadorSelect">
@@ -15,25 +22,50 @@
 		<p><b>Telefone: </b><span class="vereadorTelefone"></span></p>
 		<p><b>Email: </b><span class="vereadorEmail"></span></p>
 		<p><b>LeiCompl: </b><span class="vereadorLeiCompl"></span></p>
+		<ul class="LeiComplList"></ul>
 		<p><b>LeiDecr: </b><span class="vereadorLeiDecr"></span></p>
 		<p><b>LeiOrg: </b><span class="vereadorLeiOrg"></span></p>
 		<p><b>LeiResol: </b><span class="vereadorLeiResol"></span></p>
 		<p><b>LeiSimpl: </b><span class="vereadorLeiSimpl"></span></p>
+
+		<div>
+			<p>LeiCompl</p>
+			<canvas id="canvasLeiCompl" style="max-width:500px"></canvas>
+			<p>LeiOrg</p>
+			<canvas id="canvasLeiOrg" style="max-width:500px"></canvas>
+			<p>LeiResol</p>
+			<canvas id="canvasLeiResol" style="max-width:500px"></canvas>
+			<p>LeiSimpl</p>
+			<canvas id="canvasLeiSimpl" style="max-width:500px"></canvas>
+			<p>LeiDecr</p>
+			<canvas id="canvasLeiDecr" style="max-width:500px"></canvas>
+		</div>
+
+
+
+
+
 		<script>
+todosLei={};
 $.get("/projeto-lei-compl-2013-2016-1469923786.json",{},function(data){
-	dadosLeiCompl = data;
+	todosLei["Compl"] = data;
+	updateChart("Compl",data);
 });
 $.get("/projeto-lei-decr-2013-2016-1469924054.json",{},function(data){
-	dadosLeiDecr = data;
+	todosLei["Decr"] = data;
+	updateChart("Decr",data);
 });
 $.get("/projeto-lei-org-2013-2016-1469923787.json",{},function(data){
-	dadosLeiOrg = data;
+	todosLei["Org"] = data;
+	updateChart("Org",data);
 });
 $.get("/projeto-lei-resol-2013-2016-1469924162.json",{},function(data){
-	dadosLeiResol = data;
+	todosLei["Resol"] = data;
+	updateChart("Resol",data);
 });
 $.get("/projeto-lei-simples-2013-2016-1469923785.json",{},function(data){
-	dadosLeiSimpl = data;
+	todosLei["Simpl"] = data;
+	updateChart("Simpl",data);
 });
 $.get("dados.json",{},function(data){
 	dados = data;
@@ -51,21 +83,15 @@ $.get("dados.json",{},function(data){
 		$(".vereadorPartido").attr("src",dados[index].partido);
 		$(".vereadorTelefone").text(dados[index].telefone);
 		$(".vereadorEmail").text(dados[index].email);
-		$(".vereadorLeiCompl").text(dadosLeiCompl.filter(function(d){
-			return normalize(d.author).includes(normalize(dados[index].vereador));
-		}).length);
-		$(".vereadorLeiOrg").text(dadosLeiOrg.filter(function(d){
-			return normalize(d.author).includes(normalize(dados[index].vereador));
-		}).length);
-		$(".vereadorLeiResol").text(dadosLeiResol.filter(function(d){
-			return normalize(d.author).includes(normalize(dados[index].vereador));
-		}).length);
-		$(".vereadorLeiSimpl").text(dadosLeiSimpl.filter(function(d){
-			return normalize(d.author).includes(normalize(dados[index].vereador));
-		}).length);
-		$(".vereadorLeiDecr").text(dadosLeiDecr.filter(function(d){
-			return normalize(d.author).includes(normalize(dados[index].vereador));
-		}).length);
+
+		["Compl","Decr","Org","Resol","Simpl"].forEach(function(name){
+			var data = todosLei[name].filter(function(d){
+				return normalize(d.author).includes(normalize(dados[index].vereador));
+			});
+			updateChart(name,data);
+			$(".vereadorLei"+name).text(data.length);
+		});
+
 	});
 });
 		</script>
