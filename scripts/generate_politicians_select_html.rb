@@ -5,19 +5,22 @@ def parse_party(url)
   url.split('/').last.gsub('.jpg', '').upcase
 end
 
-names_ind = [ "VEREADOR CHIQUINHO BRAZAO", "VEREADOR DR.EDUARDO MOURA", "VEREADOR JOAO CABRAL", "VEREADOR EDUARDAO", "VEREADOR DR.GILBERTO", "VEREADOR ALEXANDRE ISQUIERDO", "VEREADOR PROFESSOR ROGERIO ROCAL", "VEREADOR MARCELO PIUI", "VEREADOR JUNIOR DA LUCINHA", "VEREADOR JEFFERSON MOURA", "VEREADOR CARLO CAIADO", "VEREADOR WILLIAN COELHO", "VEREADORA VERA LINS", "VEREADOR DR.JORGE MANAIA", "VEREADOR RAPHAEL GATTAS", "VEREADOR MARCELO ARAR", "VEREADOR RENATO MOURA", "VEREADOR CESAR MAIA", "VEREADOR RAFAEL ALOISIO FREITAS", "VEREADOR ZICO", "VEREADOR PROF. CELIO LUPPARELLI", "VEREADOR EDSON ZANATA", "VEREADOR JORGE FELIPPE", "VEREADOR MARCIO GARCIA", "VEREADORA TANIA BASTOS", "VEREADOR PAULO MESSINA", "VEREADOR JORGE BRAZ", "VEREADORA ROSA FERNANDES", "VEREADOR THIAGO K. RIBEIRO", "VEREADOR S. FERRAZ", "VEREADOR DR.CARLOS EDUARDO", "VEREADOR MARIO JUNIOR", "VEREADOR ATILA A. NUNES", "VEREADOR IVANIR DE MELLO", "VEREADORA TERESA BERGHER", "VEREADOR MARCELINO D'ALMEIDA", "VEREADOR JOAO MENDES DE JESUS", "VEREADOR ELTON BABU", "VEREADOR LEONEL BRIZOLA NETO", "VEREADOR DR.JOAO RICARDO", "VEREADOR DR.JAIRINHO", "VEREADOR ELISEU KESSLER", "VEREADORA LAURA CARNEIRO", "VEREADOR CARLOS BOLSONARO", "VEREADOR RENATO CINCO", "COMISSAO DE ESPORTES E LAZER", "VEREADORA VERONICA COSTA", "VEREADOR JORGINHO DA SOS", "VEREADOR REIMONT", "VEREADOR MARCELO QUEIROZ", "VEREADORA CRISTIANE BRASIL", "VEREADOR JIMMY PEREIRA", "VEREADOR PROF.UOSTON", "VEREADOR LUIZ CARLOS RAMOS", "VEREADOR PAULO PINHEIRO", "VEREADOR TIO CARLOS" ]
-
 def main
   politicians = JSON.parse(File.read("../dadosVereadores/dados.json"))
+  name_to_id = JSON.parse(File.read("name_to_id.json"))
+  data_by_id = {}
   html = politicians.map do |politician|
     name = politician["vereador"]
-    id = normalize(name)
-    party = parse_party(politician["partido"])
-    phone = politician["sala"]
-    email = politician["telefone"]
-    "<option value=\"#{name}\">#{name}</option>"
+    id = name_to_id[name]
+    party = parse_party(politician["partido"]).strip
+    phone = politician["sala"].strip
+    email = politician["telefone"].strip
+    data_by_id[id] = {name: name, party: party, phone: phone, email: email}
+    # "<option value=\"#{id}\" data-phone=\"#{phone}\" data-email=\"#{email}\" data-party=\"#{party}\">#{name}</option>"
+    "<option value=\"#{id}\">#{name}</option>"
   end
   puts html
-  # binding.pry
+  puts '-'*50
+  puts JSON.pretty_generate(data_by_id)
 end
 main
