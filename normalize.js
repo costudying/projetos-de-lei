@@ -112,5 +112,5 @@ function removeDiacritics (str) {
 	});
 }    
 function normalize(str){
-	return str.toUpperCase().replace(/\ /g,"");
+	return removeDiacritics(str.toLowerCase().replace(/\ /g,""));
 }
