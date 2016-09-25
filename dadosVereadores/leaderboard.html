@@ -47,23 +47,23 @@
 
 		<script>
 todosLei={};
-$.get("/projeto-lei-compl-2013-2016-1469923786.json",{},function(data){
+$.get("../crawler/projeto-lei-compl-2013-2016-1469923786.json",{},function(data){
 	todosLei["Compl"] = data;
 	updateChart("Compl",data);
 });
-$.get("/projeto-lei-decr-2013-2016-1469924054.json",{},function(data){
+$.get("../crawler/projeto-lei-decr-2013-2016-1469924054.json",{},function(data){
 	todosLei["Decr"] = data;
 	updateChart("Decr",data);
 });
-$.get("/projeto-lei-org-2013-2016-1469923787.json",{},function(data){
+$.get("../crawler/projeto-lei-org-2013-2016-1469923787.json",{},function(data){
 	todosLei["Org"] = data;
 	updateChart("Org",data);
 });
-$.get("/projeto-lei-resol-2013-2016-1469924162.json",{},function(data){
+$.get("../crawler/projeto-lei-resol-2013-2016-1469924162.json",{},function(data){
 	todosLei["Resol"] = data;
 	updateChart("Resol",data);
 });
-$.get("/projeto-lei-simples-2013-2016-1469923785.json",{},function(data){
+$.get("../crawler/projeto-lei-simples-2013-2016-1469923785.json",{},function(data){
 	todosLei["Simpl"] = data;
 	updateChart("Simpl",data);
 });
