@@ -6,21 +6,30 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
-    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <!-- <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script> -->
+    <script src='assets/js/jquery-3.1.1.min.js' type="text/javascript"></script>
     <script   src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
+    <link rel="stylesheet" href="assets/css/jquery.range.css" media="screen">
+    <script src='assets/js/jquery.range-min.js' type="text/javascript"></script>
+    <script src='js/moment-with-locales.min.js' type="text/javascript"></script>
     <script src='js/togeojson.js' type="text/javascript"></script>
     <script src="data/indications.js" type="text/javascript"></script>
     <script src="data/neighborhoodnames.js" type="text/javascript"></script>
     <!-- <style src="assets/css/bootstrap.min.css"></style> -->
     <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:30px; bottom:0; width:100%; }
+        body {
+            margin:0;
+            padding: 30px;
+        }
+        #map { position:absolute; top:150px; bottom:0; width:100%; }
     </style>
 </head>
 <body>
-<select id="select-counselor" name="counselor">
-</select>
-<div id='map'></div>
+    <select id="select-counselor" name="counselor">
+    </select>
+    <br><br><br>
+    <input type="hidden" class="slider-input" value="1">
+    <div id='map'></div>
 <script src="js/mapa.js" type="text/javascript"></script>
 </body>
 </html>
