@@ -1,6 +1,26 @@
 (function () {
 "use strict";
 
+var Component = {
+  details: function (party, email, phone) {
+    var __ = HTMLBuilder;
+    var detailsHTML =
+    __.ul(
+      __.li(__.b("Partido: "), party),
+      __.li(__.b("Email: "), email),
+      __.li(__.b("Tel.: "), phone)
+    );
+    return $(detailsHTML);
+  }
+};
+
+function renderIndicationsMap(id) {
+  var filename = id.split(" ").join("_") + ".json";
+  $.getJSON("data/indications/" + filename, function (data) {
+    console.log("loaded", data);
+  });
+}
+
 $( document ).ready(function () {
   $("#select-politician").on("change", function () {
     var id = $(this).val();
@@ -8,6 +28,8 @@ $( document ).ready(function () {
     var email = dataByPoliticianId[id].email;
     var party = dataByPoliticianId[id].party;
     console.log(id, phone, email, party);
+    $("#container-details").append( Component.details(party, email, phone) );
+    renderIndicationsMap(id);
   });
 });
 
