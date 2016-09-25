@@ -1,0 +1,3002 @@
+{
+    "COMISSAO DE ADMINISTRACAO E ASSUNTOS LIGADOS AO SERVIDOR PUBLICO": {
+        "leis": {
+            "0003/2013": {
+                "date": "05/16/2013", 
+                "description": "ALTERA A REDACAO DO CAPUT DO ART. 22 DAS DISPOSICOES TRANSITORIAS DA LEI ORGANICA DO MUNICIPIO => 20130100003 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0004/2013": {
+                "date": "06/07/2013", 
+                "description": "\"ALTERA OS SSSS 2deg E 6deg DO ART. 91 DA LEI ORGANICA DO MUNICIPIO\" => 20130100004 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0005/2013": {
+                "date": "06/11/2013", 
+                "description": "\"SUPRIME OS PARAGRAFOS 1o E 2o E ACRESCENTA PARAGRAFO UNICO AO ARTIGO 47\". => 20130100005 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "COMISSAO DE FINANCAS ORCAMENTO E FISCALIZACAO FINANCEIRA": {
+        "leis": {
+            "0003/2013": {
+                "date": "05/16/2013", 
+                "description": "ALTERA A REDACAO DO CAPUT DO ART. 22 DAS DISPOSICOES TRANSITORIAS DA LEI ORGANICA DO MUNICIPIO => 20130100003 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0004/2013": {
+                "date": "06/07/2013", 
+                "description": "\"ALTERA OS SSSS 2deg E 6deg DO ART. 91 DA LEI ORGANICA DO MUNICIPIO\" => 20130100004 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0005/2013": {
+                "date": "06/11/2013", 
+                "description": "\"SUPRIME OS PARAGRAFOS 1o E 2o E ACRESCENTA PARAGRAFO UNICO AO ARTIGO 47\". => 20130100005 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "COMISSAO DE JUSTICA E REDACAO": {
+        "leis": {
+            "0003/2013": {
+                "date": "05/16/2013", 
+                "description": "ALTERA A REDACAO DO CAPUT DO ART. 22 DAS DISPOSICOES TRANSITORIAS DA LEI ORGANICA DO MUNICIPIO => 20130100003 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0004/2013": {
+                "date": "06/07/2013", 
+                "description": "\"ALTERA OS SSSS 2deg E 6deg DO ART. 91 DA LEI ORGANICA DO MUNICIPIO\" => 20130100004 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0005/2013": {
+                "date": "06/11/2013", 
+                "description": "\"SUPRIME OS PARAGRAFOS 1o E 2o E ACRESCENTA PARAGRAFO UNICO AO ARTIGO 47\". => 20130100005 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "MESA DIRETORA": {
+        "leis": {
+            "0027/2015": {
+                "date": "05/21/2015", 
+                "description": "ALTERA O RECESSO LEGISLATIVO MEDIANO DA CAMARA MUNICIPAL NO ANO DE 2016 EM RAZAO DA REALIZACAO DOS JOGOS OLIMPICOS => 20150100027 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "PODER EXECUTIVO": {
+        "leis": {
+            "0018/2012": {
+                "date": "02/28/2012", 
+                "description": "ALTERA O ART. 12 E O INCISO XXXIX DO ART. 30 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO => 20120100018 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos Comissao de Higiene Saude Publica e Bem-Estar Social Comissao de Educacao e Cultura       }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 1, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 1, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "TCM TRIBUNAL DE CONTAS DO MUNICIPIO": {
+        "leis": {
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR ALEXANDRE ISQUIERDO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR ATILA A. NUNES": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR BABA": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR CARLO CAIADO": {
+        "leis": {
+            "0009/2013": {
+                "date": "09/05/2013", 
+                "description": "\"ACRESCENTA O ART. 254-A A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO TORNANDO OBRIGATORIA A EXECUCAO DOS CREDITOS CONSTANTES DA LEI ORCAMENTARIA ANUAL DE EMENDAS PARLAMENTARES\". => 20130100009 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0017/2010": {
+                "date": "12/27/2010", 
+                "description": "ALTERA A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, VEDANDO A NOMEACAO PARA CARGOS OU FUNCOES DE CONFIANCA NA ADMINISTRACAO MUNICIPAL, DE PESSOAS CONSIDERADAS INELEGIVEIS PARA QUALQUER CARGO, NOS TERMOS DA LEGISLACAO FEDERAL.   => 20100100017 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0027/2015": {
+                "date": "05/21/2015", 
+                "description": "ALTERA O RECESSO LEGISLATIVO MEDIANO DA CAMARA MUNICIPAL NO ANO DE 2016 EM RAZAO DA REALIZACAO DOS JOGOS OLIMPICOS => 20150100027 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 7, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 5, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 2, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 5, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR CARLOS BOLSONARO": {
+        "leis": {
+            "0009/2013": {
+                "date": "09/05/2013", 
+                "description": "\"ACRESCENTA O ART. 254-A A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO TORNANDO OBRIGATORIA A EXECUCAO DOS CREDITOS CONSTANTES DA LEI ORCAMENTARIA ANUAL DE EMENDAS PARLAMENTARES\". => 20130100009 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0011/2009": {
+                "date": "11/23/2009 01:00:00 AM", 
+                "description": "INCLUI O INCISO V NO PARAGRAFO UNICO NO ART. 120 E ACRESCENTA O ART. 122-A A LEI ORGANICA DO MUNICIPIO. => 20090100011 => {Comissao de Justica e Redacao           }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0029/2015": {
+                "date": "10/05/2015", 
+                "description": "ALTERA O INCISO VII, DO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20150100029 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos Comissao de Higiene Saude Publica e Bem-Estar Social        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 1, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR CESAR MAIA": {
+        "leis": {
+            "0001/2013": {
+                "date": "02/27/2013", 
+                "description": "ACRESCENTA DISPOSITIVO AO ART. 101 DA LEI ORGANICA DO MUNICIPIO => 20130100001 => {Comissao de Justica e Redacao           }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0002/2013": {
+                "date": "05/16/2013", 
+                "description": "ALTERA O INCISO XVII DO ART. 107 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ADEQUANDO PRAZO PARA RESPOSTA DE PEDIDOS DE INFORMACAO AO DISPOSTO NA CONSTITUICAO FEDERAL => 20130100002 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0025/2015": {
+                "date": "05/04/2015", 
+                "description": "ALTERA A REDACAO DOS INCISOS X E XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AUMENTANDO O PERIODO DE LICENCA-PATERNIDADE E INTERROMPENDO A CONTAGEM DO PRAZO DE LICENCA A GESTANTE E DE LICENCA-PATERNIDADE NO CASO DE INTERNACAO DO RECEM-NASCIDO EM UTI NEONATAL => 20150100025 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Higiene Saude Publica e Bem-Estar Social Comissao de Direitos da Crianca e do Adolescente         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 1, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR CHIQUINHO BRAZAO": {
+        "leis": {
+            "0015/2010": {
+                "date": "12/06/2010", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO => 20100100015 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Higiene Saude Publica e Bem-Estar Social Comissao de Financas Orcamento e Fiscalizacao Financeira        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR. CARLOS EDUARDO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR. EDUARDO MOURA": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR. GILBERTO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR. JOAO RICARDO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR. JORGE MANAIA": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR.CARLOS EDUARDO": {
+        "leis": {
+            "0009/2013": {
+                "date": "09/05/2013", 
+                "description": "\"ACRESCENTA O ART. 254-A A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO TORNANDO OBRIGATORIA A EXECUCAO DOS CREDITOS CONSTANTES DA LEI ORCAMENTARIA ANUAL DE EMENDAS PARLAMENTARES\". => 20130100009 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR.EDUARDO MOURA": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR.GILBERTO": {
+        "leis": {
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR.JAIRINHO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR.JOAO RICARDO": {
+        "leis": {
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR DR.JORGE MANAIA": {
+        "leis": {
+            "0009/2013": {
+                "date": "09/05/2013", 
+                "description": "\"ACRESCENTA O ART. 254-A A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO TORNANDO OBRIGATORIA A EXECUCAO DOS CREDITOS CONSTANTES DA LEI ORCAMENTARIA ANUAL DE EMENDAS PARLAMENTARES\". => 20130100009 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0010/2013": {
+                "date": "09/18/2013", 
+                "description": "ACRESCENTA DISPOSITIVOS AOS ARTIGOS 68 E 80 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, CRIANDO INSTRUMENTOS, ATRAVES DO MEIO DIGITAL, QUE FACILITEM O EXERCICIO DA PARTICIPACAO POPULAR NA INICIATIVA LEGISLATIVA.  => 20130100010 => {Comissao de Justica e Redacao Comissao de Ciencia Tecnologia Comunicacao e Informatica          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0029/2015": {
+                "date": "10/05/2015", 
+                "description": "ALTERA O INCISO VII, DO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20150100029 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos Comissao de Higiene Saude Publica e Bem-Estar Social        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 5, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 4, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 1, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 1, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 2, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 5, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR EDSON ZANATA": {
+        "leis": {
+            "0006/2013": {
+                "date": "06/11/2013", 
+                "description": "DA NOVA REDACAO AO INCISO X DO ARTIGO 177 DA LEI ORGANICA DO MUNICIPIO => 20130100006 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Higiene Saude Publica e Bem-Estar Social Comissao de Defesa da Mulher        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0011/2013": {
+                "date": "11/05/2013", 
+                "description": "ACRESCENTA UM INCISO AO SS 3o DO ART. 127 DA LEI ORGANICA DO MUNICIPIO. => 20130100011 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Turismo Comissao de Financas Orcamento e Fiscalizacao Financeira        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 3, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 1, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 1
+        }
+    }, 
+    "VEREADOR EDUARDAO": {
+        "leis": {
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR ELISEU KESSLER": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR ELTON BABU": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR GUARANA": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR IVANIR DE MELLO": {
+        "leis": {
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JEFFERSON MOURA": {
+        "leis": {
+            "0008/2013": {
+                "date": "07/31/2013", 
+                "description": "ACRESCENTA O INCISO X AO SS 3o DO ART. 127, DA LEI ORGANICA DO MUNICIPIO, PARA CRIAR O CONSELHO DE TRANSPORTE E MOBILIDADE URBANA => 20130100008 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Assuntos Urbanos Comissao de Transportes e Transito Comissao de Higiene Saude Publica e Bem-Estar Social       }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0017/2014": {
+                "date": "05/16/2014", 
+                "description": "SUPRIME O SS 2o, DO ART. 47 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, QUE DISPOEM SOBRE A VISITACAO DO VEREADOR NAS REPARTICOES PUBLICAS MUNICIPAIS E NAS AREAS SOB JURISDICAO MUNICIPAL. => 20140100017 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0020/2014": {
+                "date": "10/28/2014", 
+                "description": "ACRESCENTA DISPOSITIVO A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO INSTITUINDO A OBRIGATORIEDADE DE APRESENTACAO DE PROPOSTA/RESULTADO, O QUAL CONTERA OS PLANEJAMENTO/OBJETIVOS DO GOVERNO RELACIONADOS COM CADA PASTA, O QUADRO DE EXECUCAO ORCAMENTARIA, AS DIRETRIZES SETORIAIS, AS INICIATIVAS ESTRATEGICAS, AS METAS FISCAIS, OS INDICADORES E METAS QUANTITATIVAS PARA CADA UMA DAS AREAS DE RESULTADO DA ADMINISTRACAO PUBLICA MUNICIPAL. => 20140100020 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0024/2015": {
+                "date": "03/19/2015", 
+                "description": "REVOGA OS INCISOS XXIV E XXV E OS SSSS 1o E 2o DO ART. 45, E ACRESCENTA DISPOSITIVO A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, MODIFICANDO OS PRAZOS NAS SOLICITACOES DE INFORMACOES E CONVOCACOES DOS GESTORES MUNICIPAIS => 20150100024 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0028/2015": {
+                "date": "09/23/2015", 
+                "description": "ACRESCENTA DISPOSITIVO AO ART. 5o DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO. => 20150100028 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa da Mulher Comissao de Trabalho e Emprego Comissao de Abastecimento Industria Comercio e Agricultura Comissao de Financas Orcamento e Fiscalizacao Financeira      }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 6, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 1, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 6, 
+            "Assuntos Urbanos": 1, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 1, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 2, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 6, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 1, 
+            "Transportes e Transito": 1, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JIMMY PEREIRA": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JOAO CABRAL": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JOAO MENDES DE JESUS": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JORGE BRAZ": {
+        "leis": {
+            "0009/2013": {
+                "date": "09/05/2013", 
+                "description": "\"ACRESCENTA O ART. 254-A A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO TORNANDO OBRIGATORIA A EXECUCAO DOS CREDITOS CONSTANTES DA LEI ORCAMENTARIA ANUAL DE EMENDAS PARLAMENTARES\". => 20130100009 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JORGE FELIPPE": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0027/2015": {
+                "date": "05/21/2015", 
+                "description": "ALTERA O RECESSO LEGISLATIVO MEDIANO DA CAMARA MUNICIPAL NO ANO DE 2016 EM RAZAO DA REALIZACAO DOS JOGOS OLIMPICOS => 20150100027 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 3, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JORGINHO DA S.O.S.": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JORGINHO DA SOS": {
+        "leis": {
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR JUNIOR DA LUCINHA": {
+        "leis": {
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR LEONEL BRIZOLA": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR LEONEL BRIZOLA NETO": {
+        "leis": {
+            "0015/2014": {
+                "date": "03/20/2014", 
+                "description": "ALTERA O INCISO I, DO ART. 401 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO => 20140100015 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao do Idoso Comissao de Transportes e Transito Comissao de Financas Orcamento e Fiscalizacao Financeira       }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 1, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 1, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR LUIZ CARLOS RAMOS": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR MARCELINO D'ALMEIDA": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR MARCELO ARAR": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR MARCELO PIUI": {
+        "leis": {
+            "0012/2010": {
+                "date": "03/23/2010", 
+                "description": "ESTABELECE A EXECUCAO OBRIGATORIA DA LEI ORCAMENTARIA ANUAL E DA OUTRAS PROVIDENCIAS. => 20100100012 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR MARCELO QUEIROZ": {
+        "leis": {
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR MARCIO GARCIA": {
+        "leis": {
+            "0007/2013": {
+                "date": "07/17/2013", 
+                "description": "ALTERA E ACRESCENTA PARAGRAFOS AO ARTIGO 62 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO => 20130100007 => {Comissao de Justica e Redacao           }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0012/2013": {
+                "date": "12/23/2013", 
+                "description": "ACRESCENTA UM INCISO AO ART. 177 DA LEI ORGANICA DO MUNICIPIO. => 20130100012 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos Comissao de Ciencia Tecnologia Comunicacao e Informatica        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0013/2013": {
+                "date": "12/23/2013", 
+                "description": "ACRESCENTA PARAGRAFOS AO ART. 47 DA LEI ORGANICA DO MUNICIPIO => 20130100013 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0029/2015": {
+                "date": "10/05/2015", 
+                "description": "ALTERA O INCISO VII, DO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20150100029 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos Comissao de Higiene Saude Publica e Bem-Estar Social        }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 5, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 4, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 1, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 2, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 1, 
+            "Idoso": 0, 
+            "Justica e Redacao": 5, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR PAULO MESSINA": {
+        "leis": {
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR PAULO PINHEIRO": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR PROF. CELIO LUPPARELLI": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0031/2015": {
+                "date": "12/18/2015", 
+                "description": "ALTERA O SS 3o DO ART. 255 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO => 20150100031 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR PROF.UOSTON": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0027/2015": {
+                "date": "05/21/2015", 
+                "description": "ALTERA O RECESSO LEGISLATIVO MEDIANO DA CAMARA MUNICIPAL NO ANO DE 2016 EM RAZAO DA REALIZACAO DOS JOGOS OLIMPICOS => 20150100027 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR PROFESSOR ROGERIO ROCAL": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR REIMONT": {
+        "leis": {
+            "0012/2010": {
+                "date": "03/23/2010", 
+                "description": "ESTABELECE A EXECUCAO OBRIGATORIA DA LEI ORCAMENTARIA ANUAL E DA OUTRAS PROVIDENCIAS. => 20100100012 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0014/2014": {
+                "date": "02/27/2014", 
+                "description": "ALTERA DISPOSITIVO DO ART. 59 DE LEI ORGANICA DO MUNICIPIO DO RIO  DE JANEIRO => 20140100014 => {Comissao de Justica e Redacao           }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0019/2014": {
+                "date": "07/21/2014", 
+                "description": "ALTERA DISPOSITIVOS DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO  => 20140100019 => {Comissao de Justica e Redacao           }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 4, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR RENATO CINCO": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0030/2015": {
+                "date": "11/13/2015", 
+                "description": "RECONHECE OS DIREITOS DOS POVOS E COMUNIDADES TRADICIONAIS DO MUNICIPIO DO RIO DE JANEIRO.  => 20150100030 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos Comissao de Educacao e Cultura Comissao de Meio Ambiente Comissao de Abastecimento Industria Comercio e Agricultura Comissao de Higiene Saude Publica e Bem-Estar Social Comissao de Assuntos Urbanos    }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0032/2016": {
+                "date": "04/26/2016", 
+                "description": "INCLUI O INCISO V NO ART. 401 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ESTENDENDO O PASSE LIVRE AOS ALUNOS DE BAIXA RENDA DE CURSOS PRE-VESTIBULARES => 20160100032 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Transportes e Transito Comissao de Educacao e Cultura Comissao de Higiene Saude Publica e Bem-Estar Social Comissao de Financas Orcamento e Fiscalizacao Financeira      }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 1, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 3, 
+            "Assuntos Urbanos": 1, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 1, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 2, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 2, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 1, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 1, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR RENATO MOURA": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0027/2015": {
+                "date": "05/21/2015", 
+                "description": "ALTERA O RECESSO LEGISLATIVO MEDIANO DA CAMARA MUNICIPAL NO ANO DE 2016 EM RAZAO DA REALIZACAO DOS JOGOS OLIMPICOS => 20150100027 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 3, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR S. FERRAZ": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR THIAGO K. RIBEIRO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR TIO CARLOS": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR WILLIAN COELHO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADOR ZICO": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 2, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 2, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 2, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA LAURA CARNEIRO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0027/2015": {
+                "date": "05/21/2015", 
+                "description": "ALTERA O RECESSO LEGISLATIVO MEDIANO DA CAMARA MUNICIPAL NO ANO DE 2016 EM RAZAO DA REALIZACAO DOS JOGOS OLIMPICOS => 20150100027 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 5, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 3, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 3, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA LEILA DO FLAMENGO": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0018/2014": {
+                "date": "06/04/2014", 
+                "description": "ALTERA DISPOSITIVO DA LEI ORGANICA DO MUNICIPIO => 20140100018 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 3, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA ROSA FERNANDES": {
+        "leis": {
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA TANIA BASTOS": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA TERESA BERGHER": {
+        "leis": {
+            "0012/2010": {
+                "date": "03/23/2010", 
+                "description": "ESTABELECE A EXECUCAO OBRIGATORIA DA LEI ORCAMENTARIA ANUAL E DA OUTRAS PROVIDENCIAS. => 20100100012 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0014/2014": {
+                "date": "02/27/2014", 
+                "description": "ALTERA DISPOSITIVO DO ART. 59 DE LEI ORGANICA DO MUNICIPIO DO RIO  DE JANEIRO => 20140100014 => {Comissao de Justica e Redacao           }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0021/2014": {
+                "date": "11/11/2014", 
+                "description": "ALTERA O INCISO XII DO ART. 177 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, AMPLIANDO A LICENCA-PATERNIDADE PARA TRINTA DIAS => 20140100021 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico          }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }, 
+            "0026/2015": {
+                "date": "05/20/2015", 
+                "description": "ALTERA OS ARTIGOS 91 E 211 DA LEI ORGANICA DO MUNICIPIO, AMPLIANDO O LIMITE DE IDADE PARA A APOSENTADORIA COMPULSORIA DO SERVIDOR PUBLICO EM GERAL E PARA A NOMEACAO DOS CONSELHEIROS DO TRIBUNAL DE CONTAS, E ACRESCENTA ARTIGO AO ATO DAS DISPOSICOES TRANSITORIAS. => 20150100026 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 4, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 3, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 2, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 4, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA VERA LINS": {
+        "leis": {
+            "0022/2014": {
+                "date": "12/01/2014", 
+                "description": "CONFERE NOVA REDACAO AOS INCISOS VII DO ART. 44, XXX DO ART. 45 E II DO PARAGRAFO UNICO DO ART. 70 E AOS ARTS. 91 E 94 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO, ACRESCENTA OS SSSS 1o, 2o E 3o AO ART. 94, ACRESCE OS ARTS. 94-A E 94-B A LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO E DA OUTRAS PROVIDENCIAS. => 20140100022 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Financas Orcamento e Fiscalizacao Financeira         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 1, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "VEREADORA VERONICA COSTA": {
+        "leis": {
+            "0023/2015": {
+                "date": "03/17/2015", 
+                "description": "ALTERA OS ARTIGOS 12 E 13 DA LEI ORGANICA DO MUNICIPIO DO RIO DE JANEIRO PARA INCLUIR O DIREITO A BUSCA DA FELICIDADE COMO DIREITO FUNDAMENTAL DA POPULACAO E INERENTE A CADA INDIVIDUO E A SOCIEDADE, INCLUSIVE AS PESSOAS PORTADORAS DE DEFICIENCIA, MEDIANTE A DOTACAO, PELO MUNICIPIO E PELA PROPRIA SOCIEDADE, DAS ADEQUADAS CONDICOES DE EXERCICIO DESSE DIREITO. => 20150100023 => {Comissao de Justica e Redacao Comissao de Administracao e Assuntos Ligados ao Servidor Publico Comissao de Defesa dos Direitos Humanos         }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 1, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 1, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 1, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }, 
+    "co-autores": {
+        "leis": {
+            "0016/2014": {
+                "date": "05/08/2014", 
+                "description": "ALTERA A REDACAO DO INCISO VII E ACRESCENTA PARAGRAFO AO ART. 30 DA LEI ORGANICA DO MUNICIPIO. => 20140100016 => {A imprimir            }", 
+                "downvotes": 0, 
+                "upvotes": 0
+            }
+        }, 
+        "leis-num": 1, 
+        "tipos": {
+            "Abastecimento Industria Comercio e Agricultura": 0, 
+            "Administracao e Assuntos Ligados ao Servidor Publico": 0, 
+            "Assuntos Urbanos": 0, 
+            "Ciencia Tecnologia Comunicacao e Informatica": 0, 
+            "Defesa Civil": 0, 
+            "Defesa da Mulher": 0, 
+            "Defesa do Consumidor": 0, 
+            "Defesa dos Direitos Humanos": 0, 
+            "Direitos da Crianca e do Adolescente": 0, 
+            "Direitos da Pessoa com Deficiencia": 0, 
+            "Direitos dos Animais": 0, 
+            "Educacao e Cultura": 0, 
+            "Esportes e Lazer:": 0, 
+            "Financas Orcamento e Fiscalizacao Financeira": 0, 
+            "Higiene Saude Publica e Bem-Estar Social": 0, 
+            "Idoso": 0, 
+            "Justica e Redacao": 0, 
+            "Meio Ambiente": 0, 
+            "Obras Publicas e Infraestrutura": 0, 
+            "Prevencao as Drogas": 0, 
+            "Trabalho e Emprego": 0, 
+            "Transportes e Transito": 0, 
+            "Turismo": 0
+        }
+    }
+}

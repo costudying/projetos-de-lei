@@ -8,7 +8,7 @@
 		<script src="/count_by.js"></script>
 		<script src="/group_by.js"></script>
 		<script src="data_structure.js"></script>
-		<script src="prepare_dataset.js"></script>
+		<script src="update.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.min.js"></script>
 
@@ -89,7 +89,6 @@ $.get("dados.json",{},function(data){
 				return normalize(d.author).includes(normalize(dados[index].vereador));
 			});
 			updateChart(name,data);
-			$(".vereadorLei"+name).text(data.length);
 		});
 
 	});

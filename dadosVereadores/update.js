@@ -16,6 +16,7 @@ function prepare_dataset(data){
 chartLei={};
 dadosLei={};
 function updateChart(name,data){
+	$(".vereadorLei"+name).text(data.length);
 	var data = prepare_dataset(data);
 	var ctx = $("#canvasLei"+name)[0];
 	ctx.innerHTML="";
@@ -26,5 +27,4 @@ function updateChart(name,data){
 		type: 'doughnut',
 		data: data
 	});
-
 }
