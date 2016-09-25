@@ -11,7 +11,7 @@ end
 def generate_name_to_id
   indications_by_politician = JSON.parse(File.read("../data/indications_by_politician.json"))
   politicians = JSON.parse(File.read("../dadosVereadores/dados.json"))
-  
+
   # names in `politicians` are in a different format from those in `indications_by_politician`
   # let's say the ones in `politicians` are the "names" and the other ones are the "ids"
   names = politicians.map { |poli| poli["vereador"] }
