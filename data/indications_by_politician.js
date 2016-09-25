@@ -1,4 +1,5 @@
-var indications = {
+// This is just a duplicate of the indicationsByPolitician JSON file .
+var indicationsByPolitician = {
   "VEREADOR CHIQUINHO BRAZAO": [
     {
       "neighborhood": "TAQUARA",

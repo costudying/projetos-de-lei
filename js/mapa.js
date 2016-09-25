@@ -1,4 +1,5 @@
-var names = _.keys(indications);
+var names = _.keys(indicationsByPolitician);
+
 // console.log(names);
 _.each(names, function (name) {
     $("#select-counselor").append($("<option>", {value: name, text: name}));
@@ -19,7 +20,7 @@ Hash.prototype.get = function (key) {
 };
 function groupIndicationsByDate(name) { // working
     var hash = new Hash(function () { return []; });
-    _.each(indications[name], function (ind) {
+    _.each(indicationsByPolitician[name], function (ind) {
         var date = new Date(Date.parse(ind.date));
         hash.get(date).push(ind.neighborhood);
     });
@@ -29,7 +30,7 @@ var indicationsByDate = {};
 var neighborhoodExists = {};
 _.each(names, function (name) {
     indicationsByDate[name] = groupIndicationsByDate(name);
-    _.each(indications[name], function (ind) {
+    _.each(indicationsByPolitician[name], function (ind) {
         neighborhoodExists[ind.neighborhood] = true;
     });
 });
@@ -88,7 +89,7 @@ map.on('load', function () {
     var randomColor = function () {
         return ('#' + (function co(lor){   return (lor += [0,1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f'][Math.floor(Math.random()*16)]) && (lor.length == 6) ?  lor : co(lor); })('')).toUpperCase();
     };
-    var nameQueue = _.clone(neighborhoodNames);
+    var nameQueue = _.clone(neighborhoodKMLFilenames);
     window.kmlByName = {};
     var loadNeighborhoods = function (queue, completionCallback) {
         if (_.isEmpty(queue)) {
@@ -98,7 +99,7 @@ map.on('load', function () {
         } else {
             var name = queue.pop();
             console.log("[*] Loading '"+name+".kml'... ("+queue.length+" left)");
-            $.ajax("bairros-rj-kml/" + name + ".kml").done(function (xml) {
+            $.ajax("data/neighborhoods/" + name + ".kml").done(function (xml) {
                 console.log("[*] Done loading '"+name+".kml!'");
                 kmlByName[name] = xml;
                 // neighborhoodXML[name] = xml;
@@ -128,7 +129,7 @@ map.on('load', function () {
 });
 
 $('#select-counselor').on('change', function () {
-    _.each(neighborhoodNames, function (neigh) {
+    _.each(neighborhoodKMLFilenames, function (neigh) {
         map.setPaintProperty(neigh.toUpperCase(), 'fill-opacity', 0.25);
         map.setPaintProperty(neigh.toUpperCase(), 'fill-color', '#FFFFFF');
     });
@@ -231,7 +232,7 @@ function convertToKMLNeighborhoodNames(nameFromIndication) {
 }
 
 //
-// WIP: map each name in `neighborhoods` (from `indications.js`) to a name in `neighborhoodNames` (from `neighborhoodNames.js`, extracted from the KML files)
+// WIP: map each name in `neighborhoods` (from `indications.js`) to a name in `neighborhoodKMLFilenames` (from `neighborhoodKMLFilenames.js`, extracted from the KML files)
 //
 window.testNames = function () {
     var result = {ok: [], err: []};
@@ -262,7 +263,7 @@ window.testNames = function () {
              else return n;
          })
          .value();
-    var namesFromKML = _.chain(neighborhoodNames).sortBy().map(function (n) { return n.toUpperCase(); }).value();
+    var namesFromKML = _.chain(neighborhoodKMLFilenames).sortBy().map(function (n) { return n.toUpperCase(); }).value();
     var kml = {};
     _.each(namesFromKML, function (n) {
         kml[n] = true;

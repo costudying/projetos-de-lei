@@ -1,4 +1,5 @@
-var neighborhoodNames = [
+// This is a list of all the filenames inside the neighborhoods/ directory.
+var neighborhoodKMLFilenames = [
   "Abolicao",
   "Acari",
   "AguaSanta",
