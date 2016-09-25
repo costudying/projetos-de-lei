@@ -159,16 +159,26 @@ $('#select-counselor').on('change', function () {
 
         var neighIndNames = neighIndNamesByDate[date];
         if (!_.isUndefined(neighIndNames)) {
-            window.neighIndNames = neighIndNames;
-            _.each(neighIndNames, function (neighIndName) {
+            var countByNeighIndName = _.countBy(neighIndNames);
+            _.each(_.keys(countByNeighIndName), function (neighIndName) {
+                var count = countByNeighIndName[neighIndName];
                 _.each(convertToKMLNeighborhoodNames(neighIndName), function (neighName) {
                     if (!countForNeighborhoodName[neighName]) { countForNeighborhoodName[neighName] = 0; }
-                    countForNeighborhoodName[neighName] += 1;
+                    countForNeighborhoodName[neighName] += count;
                     var op = (countForNeighborhoodName[neighName]*1.0) / maxCountForNeighborhoodName[neighName];
                     map.setPaintProperty(neighName, 'fill-opacity', op);
                     map.setPaintProperty(neighName, 'fill-color', '#FF0000');
                 });
             });
+            // _.each(neighIndNames, function (neighIndName) {
+            //     _.each(convertToKMLNeighborhoodNames(neighIndName), function (neighName) {
+            //         if (!countForNeighborhoodName[neighName]) { countForNeighborhoodName[neighName] = 0; }
+            //         countForNeighborhoodName[neighName] += 1;
+            //         var op = (countForNeighborhoodName[neighName]*1.0) / maxCountForNeighborhoodName[neighName];
+            //         map.setPaintProperty(neighName, 'fill-opacity', op);
+            //         map.setPaintProperty(neighName, 'fill-color', '#FF0000');
+            //     });
+            // });
         }
 
         // var neighIndNames = neighIndNamesByDate[date];
