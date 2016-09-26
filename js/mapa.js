@@ -82,6 +82,7 @@ var map = new mapboxgl.Map({
     zoom: 13,
     hash: true
 });
+
 map.on('load', function () {
     console.log("[*] Map loaded.");
     // var neighborhoodXML = {};

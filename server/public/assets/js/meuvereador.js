@@ -1,6 +1,15 @@
 (function () {
 "use strict";
 
+mapboxgl.accessToken = 'pk.eyJ1IjoiY29uc3VsdG9ybW9iaWxlIiwiYSI6ImNpbGVqcGhkMjBtejV2bm1jMXhqN3ZhcGsifQ.MrxLW6ZkampJgd297kg_Zw';
+var map = new mapboxgl.Map({
+    container: 'container-map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-43.414047, -22.907193],
+    zoom: 13,
+    hash: true
+});
+
 var Component = {
   details: function (party, email, phone) {
     var __ = HTMLBuilder;
@@ -14,10 +23,17 @@ var Component = {
   }
 };
 
-function renderIndicationsMap(id) {
+function renderMap(indications) {
+  map.on('load', function () {
+      console.log("[*] Map loaded.");
+  });
+}
+
+function loadIndications(id) {
   var filename = id.split(" ").join("_") + ".json";
-  $.getJSON("data/indications/" + filename, function (data) {
-    console.log("loaded", data);
+  $.getJSON("data/indications/" + filename, function (indications) {
+    console.log("loaded", indications);
+    renderMap(indications);
   });
 }
 
@@ -29,7 +45,7 @@ $( document ).ready(function () {
     var party = dataByPoliticianId[id].party;
     console.log(id, phone, email, party);
     $("#container-details").append( Component.details(party, email, phone) );
-    renderIndicationsMap(id);
+    loadIndications(id);
   });
 });
 
