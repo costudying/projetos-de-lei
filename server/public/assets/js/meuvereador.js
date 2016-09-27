@@ -26,6 +26,12 @@ var Component = {
 function renderMap(indications) {
   map.on('load', function () {
       console.log("[*] Map loaded.");
+      var neighborhoods = [];
+      _.each(indications, function (ind) {
+        neighborhoods.push(ind.neighborhood);
+      });
+      neighborhoods = _.uniq(neighborhoods);
+      console.log(neighborhoods);
   });
 }
 
