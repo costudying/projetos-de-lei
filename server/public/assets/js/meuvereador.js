@@ -85,7 +85,7 @@ function loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName) {
         var collec = toGeoJSON.kml(kmlData);
         var feat = collec.features[0];
         var perc = (countByNeighborhoodKMLName[name] * 1.0) / maxIndicationsPerNeighborhoodKMLName[name];
-        var rgb = HSVtoRGB(perc, 1.0, 1.0);
+        var rgb = HSVtoRGB(0, 1.0, perc);
         var color = "#" + toHex(rgb.r) + toHex(rgb.g) + toHex(rgb.b);
         map.addSource(name, {type: "geojson", data: feat});
         map.addLayer({
@@ -95,7 +95,7 @@ function loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName) {
             layout: {},
             paint: {
                 "fill-color": color,
-                "fill-opacity": 0.7 + ((0.3) * perc)
+                "fill-opacity": 0.5 + ((0.35) * perc)
             }
         });
         loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName);
