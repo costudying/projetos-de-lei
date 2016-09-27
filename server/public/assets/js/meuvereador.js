@@ -23,16 +23,105 @@ var Component = {
   }
 };
 
+function convertToKMLNeighborhoodNames(nameFromIndication) {
+    return _
+    .chain(nameFromIndication.split('+'))
+    .map(function (word) {
+        return word.split(' ').join('');
+    })
+    .map(function (word) {
+        if (word === "GARDENIA") { return "GARDENIAAZUL"; }
+        else if (word === "LAPA") { return "CENTRO"; } // NOT 100% accurate!
+        else if (word === "ILHADOGOVERNADOR") { return "GALEAO"; } // NOT 100% accurate!
+        else if (word === "OSWALDOCRUZ") { return "OSVALDOCRUZ"; }
+        else if (word === "QUINTINO") { return "QUINTINOBOCAIUVA" }
+        else if (word === "SULACAP") { return "JARDIMSULACAP"; }
+        else return word;
+    })
+    .value();
+}
+
+function HSVtoRGB(h, s, v) {
+    var r, g, b, i, f, p, q, t;
+    if (arguments.length === 1) {
+        s = h.s, v = h.v, h = h.h;
+    }
+    i = Math.floor(h * 6);
+    f = h * 6 - i;
+    p = v * (1 - s);
+    q = v * (1 - f * s);
+    t = v * (1 - (1 - f) * s);
+    switch (i % 6) {
+        case 0: r = v, g = t, b = p; break;
+        case 1: r = q, g = v, b = p; break;
+        case 2: r = p, g = v, b = t; break;
+        case 3: r = p, g = q, b = v; break;
+        case 4: r = t, g = p, b = v; break;
+        case 5: r = v, g = p, b = q; break;
+    }
+    return {
+        r: Math.round(r * 255),
+        g: Math.round(g * 255),
+        b: Math.round(b * 255)
+    };
+}
+
+function toHex(dec) {
+  var str = dec.toString(16);
+  if (str.length == 1) {
+    str = "0" + str;
+  }
+  return str;
+}
+
+function loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName) {
+  if (_.isEmpty(queue)) {
+    console.log("[*] Finish loading all neighborhood KML files.");
+  } else {
+    var name = queue.pop();
+    console.log("[*] Loading '"+name+".kml'... ("+queue.length+" left)");
+    $.ajax("data/neighborhoods/" + name + ".kml").done(function (kmlData) {
+        console.log("[*] Done loading '"+name+".kml!'");
+        var collec = toGeoJSON.kml(kmlData);
+        var feat = collec.features[0];
+        var perc = (countByNeighborhoodKMLName[name] * 1.0) / maxIndicationsPerNeighborhoodKMLName[name];
+        var rgb = HSVtoRGB(perc, 1.0, 1.0);
+        var color = "#" + toHex(rgb.r) + toHex(rgb.g) + toHex(rgb.b);
+        map.addSource(name, {type: "geojson", data: feat});
+        map.addLayer({
+            id: name,
+            type: "fill",
+            source: name,
+            layout: {},
+            paint: {
+                "fill-color": color,
+                "fill-opacity": 0.7 + ((0.3) * perc)
+            }
+        });
+        loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName);
+    });
+  }
+}
+
 function renderMap(indications) {
-  map.on('load', function () {
-      console.log("[*] Map loaded.");
-      var neighborhoods = [];
-      _.each(indications, function (ind) {
-        neighborhoods.push(ind.neighborhood);
+    var neighborhoods = [];
+    _.each(indications, function (ind) {
+      neighborhoods.push(convertToKMLNeighborhoodNames(ind.neighborhood));
+    });
+    neighborhoods = _.uniq(_.flatten(neighborhoods));
+    console.log(neighborhoods);
+    var countByNeighborhoodKMLName = {};
+    _.each(indications, function (ind) {
+      var kmlNames = convertToKMLNeighborhoodNames(ind.neighborhood);
+      _.each(kmlNames, function (kmlName) {
+        if (!countByNeighborhoodKMLName[kmlName]) {
+          countByNeighborhoodKMLName[kmlName] = 0;
+        }
+        countByNeighborhoodKMLName[kmlName] += 1;
       });
-      neighborhoods = _.uniq(neighborhoods);
-      console.log(neighborhoods);
-  });
+    });
+    console.log('count', countByNeighborhoodKMLName);
+    loadNeighborhoodKMLFiles(neighborhoods, countByNeighborhoodKMLName);
 }
 
 function loadIndications(id) {
@@ -43,17 +132,172 @@ function loadIndications(id) {
   });
 }
 
-$( document ).ready(function () {
-  $("#select-politician").on("change", function () {
-    var id = $(this).val();
-    var phone = dataByPoliticianId[id].phone;
-    var email = dataByPoliticianId[id].email;
-    var party = dataByPoliticianId[id].party;
-    console.log(id, phone, email, party);
-    $("#container-details").append( Component.details(party, email, phone) );
-    loadIndications(id);
+map.on('load', function () {
+  console.log("[*] Map loaded.");
+  $( document ).ready(function () {
+    $("#select-politician").on("change", function () {
+      var id = $(this).val();
+      var phone = dataByPoliticianId[id].phone;
+      var email = dataByPoliticianId[id].email;
+      var party = dataByPoliticianId[id].party;
+      console.log(id, phone, email, party);
+      $("#container-details").append( Component.details(party, email, phone) );
+      loadIndications(id);
+    });
   });
 });
+
+var maxIndicationsPerNeighborhoodKMLName = {
+  "TAQUARA": 64,
+  "PRACASECA": 23,
+  "VILAVALQUEIRE": 28,
+  "VARGEMPEQUENA": 9,
+  "CURICICA": 8,
+  "TANQUE": 5,
+  "FREGUESIA": 13,
+  "JACAREPAGUA": 93,
+  "PECHINCHA": 6,
+  "GARDENIAAZUL": 8,
+  "JOA": 24,
+  "ITANHANGA": 9,
+  "ESTACIO": 17,
+  "GRAJAU": 3,
+  "ANIL": 11,
+  "CIDADEDEDEUS": 8,
+  "REALENGO": 31,
+  "CAMORIM": 5,
+  "RECREIODOSBANDEIRANTES": 84,
+  "MARACANA": 2,
+  "ROCHA": 65,
+  "INHAUMA": 18,
+  "ENGENHODARAINHA": 14,
+  "SANTACRUZ": 89,
+  "ENGENHODEDENTRO": 6,
+  "BARRADATIJUCA": 54,
+  "ANDARAI": 3,
+  "BENTORIBEIRO": 37,
+  "PIEDADE": 9,
+  "FLAMENGO": 8,
+  "LAGOA": 5,
+  "ABOLICAO": 2,
+  "GUARATIBA": 134,
+  "CAMPOGRANDE": 243,
+  "PAVUNA": 337,
+  "COELHONETO": 515,
+  "HONORIOGURGEL": 47,
+  "ACARI": 74,
+  "BOTAFOGO": 173,
+  "COSTABARROS": 48,
+  "PARQUECOLUMBIA": 99,
+  "BRASDEPINA": 140,
+  "RAMOS": 142,
+  "COLEGIO": 49,
+  "TURIACU": 3,
+  "GUADALUPE": 85,
+  "LEME": 33,
+  "CENTRO": 16,
+  "ANCHIETA": 58,
+  "DEODORO": 2,
+  "IRAJA": 99,
+  "MARE": 39,
+  "CAJU": 15,
+  "MADUREIRA": 37,
+  "OLARIA": 83,
+  "CASCADURA": 10,
+  "DELCASTILHO": 5,
+  "BARROSFILHO": 18,
+  "RICARDODEALBUQUERQUE": 15,
+  "PENHA": 109,
+  "VISTAALEGRE": 25,
+  "AGUASANTA": 8,
+  "ENGENHONOVO": 4,
+  "MARIADAGRACA": 7,
+  "JARDIMSULACAP": 3,
+  "COMPLEXODOALEMAO": 3,
+  "CATETE": 2,
+  "SAUDE": 12,
+  "MANGUEIRA": 3,
+  "JARDIMGUANABARA": 3,
+  "TIJUCA": 8,
+  "CORDOVIL": 54,
+  "CAMPINHO": 32,
+  "ENCANTADO": 2,
+  "GALEAO": 25,
+  "HIGIENOPOLIS": 55,
+  "BONSUCESSO": 49,
+  "VICENTEDECARVALHO": 29,
+  "BARRADEGUARATIBA": 5,
+  "COSMOS": 23,
+  "VARGEMGRANDE": 3,
+  "GLORIA": 1,
+  "MANGUINHOS": 42,
+  "BANGU": 46,
+  "PACIENCIA": 33,
+  "RIOCOMPRIDO": 16,
+  "PRACADABANDEIRA": 1,
+  "MEIER": 8,
+  "TOMASCOELHO": 4,
+  "COCOTA": 9,
+  "JACARE": 4,
+  "SEPETIBA": 192,
+  "BENFICA": 7,
+  "ZUMBI": 1,
+  "PITANGUEIRAS": 3,
+  "BANCARIOS": 5,
+  "VILAKOSMOS": 15,
+  "VIDIGAL": 2,
+  "GAMBOA": 117,
+  "SANTOCRISTO": 117,
+  "TAUA": 3,
+  "MONERO": 10,
+  "LINSDEVASCONCELOS": 8,
+  "GAVEA": 8,
+  "CACHAMBI": 6,
+  "VILAISABEL": 6,
+  "SAMPAIO": 1,
+  "SAOCRISTOVAO": 2,
+  "GERICINO": 17,
+  "CACUIA": 4,
+  "QUINTINOBOCAIUVA": 7,
+  "INHOAIBA": 19,
+  "SANTISSIMO": 267,
+  "CAVALCANTI": 1,
+  "SENADORVASCONCELOS": 20,
+  "JARDIMAMERICA": 6,
+  "JARDIMCARIOCA": 8,
+  "SAOCONRADO": 1,
+  "COPACABANA": 22,
+  "LEBLON": 5,
+  "JARDIMBOTANICO": 4,
+  "HUMAITA": 9,
+  "IPANEMA": 4,
+  "LARANJEIRAS": 7,
+  "ALTODABOAVISTA": 6,
+  "CATUMBI": 10,
+  "SANTATERESA": 15,
+  "PARADADELUCAS": 24,
+  "GRUMARI": 1,
+  "SENADORCAMARA": 32,
+  "ENGENHEIROLEAL": 4,
+  "RIBEIRA": 4,
+  "OSVALDOCRUZ": 19,
+  "VAZLOBO": 69,
+  "VIGARIOGERAL": 15,
+  "PADREMIGUEL": 10,
+  "RIACHUELO": 2,
+  "SAOFRANCISCOXAVIER": 1,
+  "PORTUGUESA": 3,
+  "ROCINHA": 1,
+  "TODOSOSSANTOS": 3,
+  "PILARES": 5,
+  "PRAIADABANDEIRA": 1,
+  "PAQUETA": 6,
+  "MAGALHAESBASTOS": 15,
+  "CIDADEUNIVERSITARIA": 3,
+  "COSMEVELHO": 2,
+  "VILAMILITAR": 1,
+  "URCA": 2
+};
 
 var dataByPoliticianId = {
     "VEREADOR ALEXANDRE ISQUIERDO": {
