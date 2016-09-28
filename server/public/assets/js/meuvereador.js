@@ -2,6 +2,7 @@
 "use strict";
 
 $(document).ready(function () {
+  $("#progress-bar-map").hide();
   $("#select-politician").selectize({
     sortField: 'text'
   });
@@ -80,32 +81,56 @@ function toHex(dec) {
   return str;
 }
 
-function loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName) {
+var Cache = {
+  neighborhoodKMLDataByName: {}
+};
+
+function loadNeighborhoodKMLFiles(queue, queueTotal, countByNeighborhoodKMLName) {
   if (_.isEmpty(queue)) {
     console.log("[*] Finish loading all neighborhood KML files.");
+    $("#progress-bar-map > .progress-bar").css("width", "100%");
+    $("#progress-bar-map > .progress-bar").attr("aria-valuenow", "100");
+    setTimeout(function () {
+      $("#progress-bar-map").hide();
+    }, 1000);
   } else {
+    var progress = Math.round(100 * ((queueTotal - queue.length) / queueTotal)).toString();
+    console.log(progress);
+    $("#progress-bar-map > .progress-bar").css("width", progress + "%");
+    $("#progress-bar-map > .progress-bar").attr("aria-valuenow", progress);
+
     var name = queue.pop();
-    console.log("[*] Loading '"+name+".kml'... ("+queue.length+" left)");
-    $.ajax("data/neighborhoods/" + name + ".kml").done(function (kmlData) {
-        console.log("[*] Done loading '"+name+".kml!'");
-        var collec = toGeoJSON.kml(kmlData);
-        var feat = collec.features[0];
-        var perc = (countByNeighborhoodKMLName[name] * 1.0) / maxIndicationsPerNeighborhoodKMLName[name];
-        var rgb = HSVtoRGB(240 + 60 * perc, 1.0, perc);
-        var color = "#" + toHex(rgb.r) + toHex(rgb.g) + toHex(rgb.b);
-        map.addSource(name, {type: "geojson", data: feat});
-        map.addLayer({
-            id: name,
-            type: "fill",
-            source: name,
-            layout: {},
-            paint: {
-                "fill-color": color,
-                "fill-opacity": 0.5
-            }
-        });
-        loadNeighborhoodKMLFiles(queue, countByNeighborhoodKMLName);
-    });
+    // console.log("[*] Loading '"+name+".kml'... ("+queue.length+" left)");
+    if (Cache.neighborhoodKMLDataByName[name]) {
+      var perc = (countByNeighborhoodKMLName[name] * 1.0) / maxIndicationsPerNeighborhoodKMLName[name];
+      map.setPaintProperty(name, 'fill-opacity', 0.5);
+      var rgb = HSVtoRGB(240 + 60 * perc, 1.0, perc);
+      var color = "#" + toHex(rgb.r) + toHex(rgb.g) + toHex(rgb.b);
+      map.setPaintProperty(name, 'fill-color', color);
+      loadNeighborhoodKMLFiles(queue, queueTotal, countByNeighborhoodKMLName);
+    } else {
+      $.ajax("data/neighborhoods/" + name + ".kml").done(function (kmlData) {
+          // console.log("[*] Done loading '"+name+".kml!'");
+          Cache.neighborhoodKMLDataByName[name] = kmlData;
+          var collec = toGeoJSON.kml(kmlData);
+          var feat = collec.features[0];
+          var perc = (countByNeighborhoodKMLName[name] * 1.0) / maxIndicationsPerNeighborhoodKMLName[name];
+          var rgb = HSVtoRGB(240 + 60 * perc, 1.0, perc);
+          var color = "#" + toHex(rgb.r) + toHex(rgb.g) + toHex(rgb.b);
+          map.addSource(name, {type: "geojson", data: feat});
+          map.addLayer({
+              id: name,
+              type: "fill",
+              source: name,
+              layout: {},
+              paint: {
+                  "fill-color": color,
+                  "fill-opacity": 0.5
+              }
+          });
+          loadNeighborhoodKMLFiles(queue, queueTotal, countByNeighborhoodKMLName);
+      });
+    }
   }
 }
 
@@ -127,7 +152,14 @@ function renderMap(indications) {
       });
     });
     console.log('count', countByNeighborhoodKMLName);
-    loadNeighborhoodKMLFiles(neighborhoods, countByNeighborhoodKMLName);
+    // reset map
+    _.each(Cache.neighborhoodKMLDataByName, function (kmlData, name) {
+      map.setPaintProperty(name, 'fill-opacity', 0.0);
+    });
+    $("#progress-bar-map > .progress-bar").css("width", "0%");
+    $("#progress-bar-map > .progress-bar").attr("aria-valuenow", "0");
+    $("#progress-bar-map").show();
+    loadNeighborhoodKMLFiles(neighborhoods, neighborhoods.length, countByNeighborhoodKMLName);
 }
 
 function loadIndications(id) {

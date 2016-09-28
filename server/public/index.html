@@ -5,6 +5,7 @@
     <title>Meu Vereador</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/selectize.css" media="screen" title="no title">
     <!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.0.8/es5-shim.min.js"></script><![endif]-->
@@ -17,11 +18,11 @@
           margin:0;
           padding: 30px;
       }
+      #container-body {
+      }
       #container-map {
-        position:absolute;
-        top:150px;
-        bottom:0;
-        width:100%;
+        width:600px;
+        height: 600px;
         background-color: #eee;
       }
     </style>
@@ -83,7 +84,14 @@
     </select>
     <div id="container-details">
     </div>
-    <div id="container-map">
+    <div id="container-body">
+      <div class="progress" id="progress-bar-map">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+          <span class="sr-only">60% Complete</span>
+        </div>
+      </div>
+      <div id="container-map">
+      </div>
     </div>
     <!-- Vendor scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
