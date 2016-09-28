@@ -1,6 +1,12 @@
 (function () {
 "use strict";
 
+$(document).ready(function () {
+  $("#select-politician").selectize({
+    sortField: 'text'
+  });
+});
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiY29uc3VsdG9ybW9iaWxlIiwiYSI6ImNpbGVqcGhkMjBtejV2bm1jMXhqN3ZhcGsifQ.MrxLW6ZkampJgd297kg_Zw';
 var map = new mapboxgl.Map({
     container: 'container-map',
