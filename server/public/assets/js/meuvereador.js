@@ -2,7 +2,7 @@
 "use strict";
 
 $(document).ready(function () {
-  $("#progress-bar-map").hide();
+  $("#container-progress-bar-map").hide();
   $("#select-politician").selectize({
     sortField: 'text'
   });
@@ -91,8 +91,8 @@ function loadNeighborhoodKMLFiles(queue, queueTotal, countByNeighborhoodKMLName)
     $("#progress-bar-map > .progress-bar").css("width", "100%");
     $("#progress-bar-map > .progress-bar").attr("aria-valuenow", "100");
     setTimeout(function () {
-      $("#progress-bar-map").hide();
-    }, 1000);
+      $("#container-progress-bar-map").hide(200);
+    }, 800);
   } else {
     var progress = Math.round(100 * ((queueTotal - queue.length) / queueTotal)).toString();
     console.log(progress);
@@ -158,7 +158,7 @@ function renderMap(indications) {
     });
     $("#progress-bar-map > .progress-bar").css("width", "0%");
     $("#progress-bar-map > .progress-bar").attr("aria-valuenow", "0");
-    $("#progress-bar-map").show();
+    $("#container-progress-bar-map").show();
     loadNeighborhoodKMLFiles(neighborhoods, neighborhoods.length, countByNeighborhoodKMLName);
 }
 
@@ -179,6 +179,7 @@ map.on('load', function () {
       var email = dataByPoliticianId[id].email;
       var party = dataByPoliticianId[id].party;
       console.log(id, phone, email, party);
+      $("#container-details").empty();
       $("#container-details").append( Component.details(party, email, phone) );
       loadIndications(id);
     });
