@@ -26,7 +26,20 @@ var Component = {
       __.li(__.b("Email: "), email),
       __.li(__.b("Tel.: "), phone)
     );
-    return $(detailsHTML);
+    return $.parseHTML(detailsHTML);
+  },
+  laws: function (laws) {
+    var __ = HTMLBuilder;
+    var lawsHTML =
+    __.div(
+      __.u('Projetos de Lei'),
+      __.ul(
+        __.li('Projetos de lei ', __.b('orgânicas'), ': ', laws.organic.length.toString()),
+        __.li('Projetos de lei ', __.b('complementares'), ': ', laws.complementary.length.toString()),
+        __.li('Projetos de lei ', __.b('ordinárias'), ': ', laws.simple.length.toString())
+      )
+    );
+    return $.parseHTML(lawsHTML);
   }
 };
 
@@ -166,11 +179,23 @@ function renderMap(indications) {
     loadNeighborhoodKMLFiles(neighborhoods, neighborhoods.length, countByNeighborhoodKMLName);
 }
 
+function idToFilename(id) {
+  return id.split(" ").join("_") + ".json";
+}
+
 function loadIndications(id) {
-  var filename = id.split(" ").join("_") + ".json";
+  var filename = idToFilename(id);
   $.getJSON("data/indications/" + filename, function (indications) {
-    console.log("loaded", indications);
+    console.log("indications", indications);
     renderMap(indications);
+  });
+}
+
+function loadLaws(id, cb) {
+  var filename = idToFilename(id);
+  $.getJSON("data/laws/" + filename, function (laws) {
+    console.log("laws", laws);
+    cb(laws);
   });
 }
 
@@ -185,6 +210,9 @@ map.on('load', function () {
       console.log(id, phone, email, party);
       $("#container-details").empty();
       $("#container-details").append( Component.details(party, email, phone) );
+      loadLaws(id, function (laws) {
+        $("#container-laws").append( Component.laws(laws) );
+      });
       loadIndications(id);
     });
   });
