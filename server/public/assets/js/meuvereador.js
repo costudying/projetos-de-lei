@@ -211,6 +211,7 @@ map.on('load', function () {
       $("#container-details").empty();
       $("#container-details").append( Component.details(party, email, phone) );
       loadLaws(id, function (laws) {
+        $("#container-laws").empty();
         $("#container-laws").append( Component.laws(laws) );
       });
       loadIndications(id);
