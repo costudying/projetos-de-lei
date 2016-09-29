@@ -55,7 +55,13 @@ def generate_laws_by_politician
     end
   end
 
-  File.open("laws_by_politician.json", "w") { |f| f.puts(JSON.pretty_generate(laws_by_politician)) }
+  File.open(DATA_PATH + "/generated/laws_by_politician.json", "w") { |f| f.puts(JSON.pretty_generate(laws_by_politician)) }
+  output_path = DATA_PATH + "/generated/laws"
+  `mkdir #{output_path}`
+  laws_by_politician.each do |author, laws|
+    filename = author.split(" ").join("_") + ".json"
+    File.open(output_path + "/" + filename, "w") { |f| f.puts(JSON.pretty_generate(laws)) }
+  end
 end
 
 generate_laws_by_politician
