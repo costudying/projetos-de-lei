@@ -14,7 +14,7 @@ def load_json path
 end
 
 def save_json path, obj
-  File.open(path, "w") { |f| f.puts(JSON.generate(obj)) }
+  File.open(path, "w") { |f| f.puts(JSON.pretty_generate(obj)) }
 end
 
 def normalize author
