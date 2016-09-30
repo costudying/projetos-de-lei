@@ -1,0 +1,13 @@
+[2016-09-30T10:58:41-03:00] - CRAWLING compl
+[2016-09-30T10:58:41-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm&Start=1
+[2016-09-30T10:58:42-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:42-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm&Start=100
+[2016-09-30T10:58:42-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:47-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm&Start=100
+[2016-09-30T10:58:48-03:00] - SUCCESS: 96 projects
+[2016-09-30T10:58:48-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm&Start=195
+[2016-09-30T10:58:48-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:53-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm&Start=195
+[2016-09-30T10:58:53-03:00] - SUCCESS: 1 projects
+[2016-09-30T10:58:53-03:00] - WARNING! Next URL is the same, this means we've reached the end OR we're being rate limited
+[2016-09-30T10:58:53-03:00] - terminating...

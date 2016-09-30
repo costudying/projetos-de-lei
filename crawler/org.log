@@ -1,0 +1,9 @@
+[2016-09-30T10:58:53-03:00] - CRAWLING org
+[2016-09-30T10:58:53-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm&Start=1
+[2016-09-30T10:58:53-03:00] - SUCCESS: 38 projects
+[2016-09-30T10:58:53-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm&Start=38
+[2016-09-30T10:58:53-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:58-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm&Start=38
+[2016-09-30T10:58:59-03:00] - SUCCESS: 1 projects
+[2016-09-30T10:58:59-03:00] - WARNING! Next URL is the same, this means we've reached the end OR we're being rate limited
+[2016-09-30T10:58:59-03:00] - terminating...
