@@ -195,7 +195,7 @@ function showModal(title,body){
 			console.log(id, phone, email, party);
 			$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
 			loadLaws(id, function (laws) {
-				$("#container-laws").html(Templates.laws(laws));
+				$("#container-laws").html(Templates.laws({organic: laws.organic, complementary: laws.complementary,simple: laws.simple}));
 			});
 			loadIndications(id);
 		}

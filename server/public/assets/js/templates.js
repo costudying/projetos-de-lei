@@ -59,11 +59,11 @@ Templates["laws"]=function(scope){
 	with(scope||{}){
 		var _out = [];
 		_out.push("<div class=\"col-sm-6\">\n\t<div class=\"panel panel-default\" style=\"text-align:center;padding:20px\">\n\t\t<h1 onclick=\"showModal('Leis Orgânicas','louco')\"     class=\"laws-counter clickable\">\n\t\t\t");
-			_out.push(escapeHtml(organic.length ));
+			_out.push(escapeHtml((organic||[]).length ));
 			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal('Leis Orgânicas','louco')\" class=\"clickable\">orgânicas</b>\n\t</div>\n</div>\n<div class=\"col-sm-6\">\n\t<div class=\"panel panel-default\" style=\"text-align:center;padding:20px\">\n\t\t<h1 onclick=\"showModal('Leis Orgânicas','louco')\"     class=\"laws-counter clickable\">\n\t\t\t");
-			_out.push(escapeHtml(complementary.length ));
+			_out.push(escapeHtml((complementary||[]).length ));
 			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal('Leis Orgânicas','louco')\" class=\"clickable\">complementares</b>\n\t</div>\n</div>\n<div class=\"col-sm-6\">\n\t<div class=\"panel panel-default\" style=\"text-align:center;padding:20px\">\n\t\t<h1 onclick=\"showModal('Leis Orgânicas','louco')\"     class=\"laws-counter clickable\">\n\t\t\t");
-			_out.push(escapeHtml(simple.length ));
+			_out.push(escapeHtml((simple||[]).length ));
 			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal('Leis Orgânicas','louco')\" class=\"clickable\">ordinárias</b>\n\t</div>\n</div>\n");
 		return _out.join("");
 	}

@@ -1,7 +1,7 @@
 <div class="col-sm-6">
 	<div class="panel panel-default" style="text-align:center;padding:20px">
 		<h1 onclick="showModal('Leis Orgânicas','louco')"     class="laws-counter clickable">
-			<%=organic.length %>
+			<%=(organic||[]).length %>
 		</h1>
 		<b onclick="showModal('Leis Orgânicas','louco')" class="clickable">orgânicas</b>
 	</div>
@@ -9,7 +9,7 @@
 <div class="col-sm-6">
 	<div class="panel panel-default" style="text-align:center;padding:20px">
 		<h1 onclick="showModal('Leis Orgânicas','louco')"     class="laws-counter clickable">
-			<%=complementary.length %>
+			<%=(complementary||[]).length %>
 		</h1>
 		<b onclick="showModal('Leis Orgânicas','louco')" class="clickable">complementares</b>
 	</div>
@@ -17,7 +17,7 @@
 <div class="col-sm-6">
 	<div class="panel panel-default" style="text-align:center;padding:20px">
 		<h1 onclick="showModal('Leis Orgânicas','louco')"     class="laws-counter clickable">
-			<%=simple.length %>
+			<%=(simple||[]).length %>
 		</h1>
 		<b onclick="showModal('Leis Orgânicas','louco')" class="clickable">ordinárias</b>
 	</div>
