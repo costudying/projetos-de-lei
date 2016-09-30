@@ -1,11 +1,32 @@
 # city counselors = vereador
-require 'harvestman'
-require 'json'
+require "harvestman"
+require "json"
 
 class Crawler
+  DATA_OUTPUT_PATH = "data"
+
+  def log(msg)
+    puts msg
+    File.open(@name + ".log", "a") { |f| f.puts("[#{DateTime.now.to_s}] #{msg}") }
+  end
+
   def initialize(name, url)
     @name = name
     @url = url
+
+    if File.exists? temp_json_path(@name)
+      @temp = load_json(temp_json_path(@name))
+    else
+      @temp = {
+        "last_successfully_crawled_url" => nil,
+        "crawled_data_by_url" => {}
+      }
+      save_json(temp_json_path(@name), @temp)
+    end
+  end
+
+  def temp_json_path(name)
+    File.join(DATA_OUTPUT_PATH, name + ".temp.json")
   end
 
   def fix_encoding(str)
@@ -16,24 +37,46 @@ class Crawler
     "#{@url}&Start=#{page}"
   end
 
+  def save_json(name, obj)
+    File.open(name, "w") { |f| f.puts(JSON.pretty_generate(obj)) }
+  end
+
+  def load_json(name)
+    JSON.parse(File.read(name))
+  end
+
   def crawl
-    puts "- CRAWLING #{@name}"
-    projects = self.start_crawling
-    File.open("#{@name}-#{DateTime.now.to_time.to_i}.json", "w") do |f|
+    log "- CRAWLING #{@name}"
+    projects = if @temp["last_successfully_crawled_url"].nil?
+      self.start_crawling
+    else
+      self.start_crawling(url: @temp["last_successfully_crawled_url"])
+    end
+    path = File.join(DATA_OUTPUT_PATH, "#{@name}-#{DateTime.now.to_time.to_i}.json")
+    Dir.mkdir(DATA_OUTPUT_PATH) unless Dir.exists? DATA_OUTPUT_PATH
+    File.open(path, "w") do |f|
       f.puts JSON.pretty_generate(projects)
     end
   end
 
-  # TODO: scrape the next url instead of adding 99... we're missing some data at the last page
-  def crawl_page(page = 1)
+  def crawl_page(**opts)
+    url = if opts[:page]
+      url_for_page(opts[:page])
+    elsif opts[:url]
+      opts[:url]
+    else
+      url_for_page(1)
+      # raise ArgumentError, "Need to specify either 'page' or 'url' option."
+    end
     projects = []
-    puts "- crawling URL: #{url_for_page(page)}"
+    log "- crawling URL: #{url}"
     begin
-      Harvestman.crawl url_for_page(page) do
+      next_page_url = Harvestman.crawl url do
         if !css("h2").empty?
-          puts "- END OF CRAWLING"
+          log "- END OF CRAWLING"
           return []
         end
+
         css 'table[cellpadding="2"] tr[valign="top"]' do
           fix_encoding = -> (str) { str.encode("iso-8859-1").force_encoding("utf-8") }
           projects << {
@@ -44,11 +87,34 @@ class Crawler
             author: fix_encoding.call(css('font')[3].inner_text)
           }
         end
+
+        # This didn't work once because of this page:
+        # http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2375
+        # The next link was broken (actually pointing to the same URL, and the next URLs were empty "No Documents Found")
+        next_page_link = css("map:nth-of-type(2) > area:nth-child(4)").first
+        path = next_page_link.attributes["href"].value
+        current_uri.scheme + "://" + File.join(current_uri.host, path)
       end
-      puts "- SUCCESS: #{projects.count} projects"
-      return projects + self.crawl_page(page + 99)
+      @temp["last_successfully_crawled_url"] = url
+      @temp["crawled_data_by_url"][url] = projects
+      save_json(temp_json_path(@name), @temp)
+      log "- SUCCESS: #{projects.count} projects"
+      if next_page_url === url
+        log "- WARNING! Next URL is the same, this means we've reached the end OR we're being rate limited"
+        log "- terminating..."
+        # log "- sleeping for 5min..."
+        # sleep(5 * 60)
+        return projects
+      else
+        log "- next URL is OK: #{next_page_url}"
+        log "- sleeping for 5sec..."
+        sleep(5)
+        return projects + self.crawl_page(url: next_page_url)
+      end
     rescue Exception => msg
-      puts "- ERROR: #{msg}"
+      log "- ERROR: #{msg}"
+        log "- sleeping for 5sec..."
+      sleep(5)
       return []
     end
   end
@@ -57,12 +123,12 @@ class Crawler
 end
 
 [
-  Crawler.new("projeto-lei-simples-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm"),
-  Crawler.new("projeto-lei-compl-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm"),
-  Crawler.new("projeto-lei-org-2013-2016","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm"),
-  Crawler.new("projeto-lei-decr-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/DecretoInt?OpenForm"),
-  Crawler.new("projeto-lei-resol-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/ResolucaoInt?OpenForm"),
-  Crawler.new("indicacoes-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/IndInt?OpenForm")
+  Crawler.new("simples","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm"),
+  Crawler.new("compl","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm"),
+  Crawler.new("org","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm"),
+    # Crawler.new("projeto-lei-decr-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/DecretoInt?OpenForm"),
+    # Crawler.new("projeto-lei-resol-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/ResolucaoInt?OpenForm"),
+  Crawler.new("ind", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/IndInt?OpenForm")
 ].each do |crawler|
   crawler.crawl
 end
