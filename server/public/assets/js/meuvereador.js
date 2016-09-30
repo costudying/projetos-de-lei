@@ -13,6 +13,18 @@ function showModal(kind){
 		$(".modal-body").html(Templates.modal({politician: dataByPoliticianId[id],laws: laws}));
 	}
 
+	$.getJSON("data/laws/laws_per_politician.json",function(data){
+		Object.keys(data).forEach(function(i){
+			var k = data[i].id.replace(/_/g," ");
+			if(dataByPoliticianId[k]){
+				dataByPoliticianId[k].organic = data[i].organic;
+				dataByPoliticianId[k].simple = data[i].simple;
+				dataByPoliticianId[k].complementary = data[i].complementary;
+			}
+		});
+		$(".container-ranking").html(Templates.ranking({politicians: dataByPoliticianId}));
+		$(".container-ranking table").dataTable();
+	});
 	$(document).ready(function () {
 		$("#container-progress-bar-map").hide();
 		$("#select-politician").removeClass("form-control");

@@ -99,6 +99,49 @@ Templates["profile"]=function(scope){
 	}
 };
 
+Templates["ranking"]=function(scope){
+	var include=function(path,extra){
+		var newScope = new Object(extra) || {};
+		for(attr in scope){
+			newScope[attr]=scope[attr];
+		}
+		return Templates[path](newScope);
+	}
+	var entityMap = {
+		"&": "&amp;",
+		"<": "&lt;",
+		">": "&gt;",
+		'"': '&quot;',
+		"'": '&#39;',
+		"/": '&#x2F;'
+	  };
+
+	  function escapeHtml(string) {
+		return String(string).replace(/[&<>"'/]/g, function (s) {
+		  return entityMap[s];
+		});
+	  }
+	with(scope||{}){
+		var _out = [];
+		_out.push("<table class=\"table table-hover\">\n\t<thead>\n\t\t<tr>\n\t\t\t<td>Name</td>\n\t\t\t<td>Party</td>\n\t\t\t<td>Leis orgânicas</td>\n\t\t\t<td>Leis complementares</td>\n\t\t\t<td>Leis ordinárias</td>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t");
+	 Object.keys(politicians).forEach(function(key){ ;
+	_out.push("\n\t\t<tr>\n\t\t\t<td>");
+			_out.push(escapeHtml( politicians[key].name ));
+			_out.push("</td>\n\t\t\t<td>");
+			_out.push(escapeHtml( politicians[key].party ));
+			_out.push("</td>\n\t\t\t<td>");
+			_out.push(escapeHtml( politicians[key].organic ));
+			_out.push("</td>\n\t\t\t<td>");
+			_out.push(escapeHtml( politicians[key].complementary ));
+			_out.push("</td>\n\t\t\t<td>");
+			_out.push(escapeHtml( politicians[key].simple ));
+			_out.push("</td>\n\t\t</tr>\n\t");
+	 }) ;
+	_out.push("\n\t</tbody>\n</table>\n");
+		return _out.join("");
+	}
+};
+
 Templates["laws"]=function(scope){
 	var include=function(path,extra){
 		var newScope = new Object(extra) || {};

@@ -1,0 +1,1 @@
+require "json";xx=File.open("data","w"){|f|f.write `ls *.json`.split("\n").map{|f| [f,JSON.parse(File.open(f).read)]}.map{|p|{id: p[0].gsub(".json",""),simple: (p[1]["simple"] or []).size,organic: (p[1]["organic"] or []).size,complementary: (p[1]["complementary"] or []).size}}.to_json}
