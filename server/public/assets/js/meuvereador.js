@@ -10,6 +10,7 @@ function showModal(title,body){
 
 	$(document).ready(function () {
 		$("#container-progress-bar-map").hide();
+		$("#select-politician").removeClass("form-control");
 		$("#select-politician").selectize({
 			sortField: 'text'
 		});
@@ -133,6 +134,8 @@ function showModal(title,body){
 	}
 
 	function renderMap(indications) {
+		$("#container-map").css("visibility","visible");
+		$("#container-map").css("position","relative");
 		var neighborhoods = [];
 		_.each(indications, function (ind) {
 			neighborhoods.push(convertToKMLNeighborhoodNames(ind.neighborhood));
@@ -180,24 +183,23 @@ function showModal(title,body){
 		});
 	}
 
+	$("#select-politician").on("change", function () {
+		$(".politician-data").addClass("col-md-6");
+		var id = $(this).val();
+		var phone = dataByPoliticianId[id].phone;
+		var email = dataByPoliticianId[id].email;
+		var party = dataByPoliticianId[id].party;
+		$(".politician-picture").css("background","url(\"assets/imgs/"+id.replace(/\ /g,"_")+".jpg\")");
+		$(".politician-picture").css("background-size","cover");
+		console.log(id, phone, email, party);
+		$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
+		loadLaws(id, function (laws) {
+			$("#container-laws").html(Templates.laws(laws));
+		});
+		loadIndications(id);
+	});
 	map.on('load', function () {
 		console.log("[*] Map loaded.");
-		$( document ).ready(function () {
-			$("#select-politician").on("change", function () {
-				var id = $(this).val();
-				var phone = dataByPoliticianId[id].phone;
-				var email = dataByPoliticianId[id].email;
-				var party = dataByPoliticianId[id].party;
-				$(".politician-picture").css("background","url(\"assets/imgs/"+id.replace(/\ /g,"_")+".jpg\")");
-				$(".politician-picture").css("background-size","cover");
-				console.log(id, phone, email, party);
-				$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
-				loadLaws(id, function (laws) {
-					$("#container-laws").html(Templates.laws(laws));
-				});
-				loadIndications(id);
-			});
-		});
 	});
 
 	var maxIndicationsPerNeighborhoodKMLName = {

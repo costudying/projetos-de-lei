@@ -10,30 +10,38 @@
 		<link rel="stylesheet" href="assets/css/selectize.css" media="screen" title="no title">
 		<!--[if lt IE 9]><script src="http://cdnjs.cloudflare.com/ajax/libs/es5-shim/2.0.8/es5-shim.min.js"></script><![endif]-->
 		<style media="screen">
-html {
-	font-family: 'Open Sans';
-	font-weight: 300;
-}
-	  body {
-		  margin:0;
-	  }
-	  #container-body {
-	  }
-	  #container-map {
-		  width:100%;
-		  height: 600px;
-		  background-color: #eee;
-	  }
-	  .politician-picture{
-		width: 200px;
-		height: 200px;
-		border-radius:50%;
-		background: url("https://www.r-users.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png");
-		background-position: center;
-		background-size: contain;
-		display:inline-block;
-		margin-bottom:1em;
-	  }
+		html {
+			font-family: 'Open Sans';
+			font-weight: 300;
+		}
+		body {
+			margin:0;
+			background-color:#f9d068;
+		}
+		.politician-inner{
+			display:inline-block;
+		}
+		#container-map {
+			width:100%;
+			height: 600px;
+			background-color: #eee;
+			visibility:hidden;
+			position:fixed;
+		}
+		.politician-picture{
+			width: 200px;
+			height: 200px;
+			border-radius:50%;
+			background: url("https://www.r-users.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png");
+			background-position: center;
+			background-size: contain;
+			display:inline-block;
+			margin-bottom:1em;
+		}
+		.clickable{
+			cursor: pointer;
+		}
+
 		</style>
 	</head>
 	<body>
@@ -52,67 +60,67 @@ html {
 		</div><!-- /.modal -->
 		<nav style="width:100%;background-color:#f9d068;min-height:100px">
 		</nav>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div style="text-align:center">
+		<div class="container-fluid" style="background-color:white">
+			<div class="row" style="margin-top:2em">
+				<div class="politician-data" style="text-align:center" >
+					<div class="politician-inner">
 						<div class="politician-picture" src=""></div>
-					</div>
-					<!-- These options were generated with the `generate_politicians_select_html` script. -->
-					<select id="select-politician">
-						<option value="VEREADOR ALEXANDRE ISQUIERDO">Alexandre Isquierdo</option>
-						<option value="VEREADOR ATILA A. NUNES">Atila A. Nunes</option>
-						<option value="VEREADOR BABA">Babá</option>
-						<option value="VEREADOR CARLO CAIADO">Carlo Caiado</option>
-						<option value="VEREADOR CARLOS BOLSONARO">Carlos Bolsonaro</option>
-						<option value="VEREADOR CESAR MAIA">Cesar Maia</option>
-						<option value="VEREADOR CHIQUINHO BRAZAO">Chiquinho Brazão</option>
-						<option value="VEREADOR DR. CARLOS EDUARDO">Dr. Carlos Eduardo</option>
-						<option value="VEREADOR DR. EDUARDO MOURA">Dr. Eduardo Moura</option>
-						<option value="VEREADOR DR. GILBERTO">Dr. Gilberto</option>
-						<option value="VEREADOR DR. JAIRINHO">Dr. Jairinho</option>
-						<option value="VEREADOR DR. JOAO RICARDO">Dr. João Ricardo</option>
-						<option value="VEREADOR DR. JORGE MANAIA">Dr. Jorge Manaia</option>
-						<option value="VEREADOR EDSON ZANATA">Edson Zanata</option>
-						<option value="VEREADOR EDUARDAO">Eduardão</option>
-						<option value="VEREADOR ELISEU KESSLER">Eliseu Kessler</option>
-						<option value="VEREADOR ELTON BABU">Elton Babú</option>
-						<option value="VEREADOR JEFFERSON MOURA">Jefferson Moura</option>
-						<option value="VEREADOR JIMMY PEREIRA">Jimmy Pereira</option>
-						<option value="VEREADOR JOAO CABRAL">João Cabral</option>
-						<option value="VEREADOR JOAO MENDES DE JESUS">João Mendes de Jesus</option>
-						<option value="VEREADOR JORGE BRAZ">Jorge Braz</option>
-						<option value="VEREADOR JORGE FELIPPE">Jorge Felippe</option>
-						<option value="VEREADOR JORGINHO DA SOS">Jorginho da S.O.S.</option>
-						<option value="VEREADOR JUNIOR DA LUCINHA">Junior da Lucinha</option>
-						<option value="VEREADORA LEILA DO FLAMENGO">Leila do Flamengo</option>
-						<option value="VEREADOR LEONEL BRIZOLA NETO">Leonel Brizola Neto</option>
-						<option value="VEREADOR MARCELINO D'ALMEIDA">Marcelino D Almeida</option>
-						<option value="VEREADOR MARCELO ARAR">Marcelo Arar</option>
-						<option value="VEREADOR MARCELO PIUI">Marcelo Piuí</option>
-						<option value="VEREADOR MARCIO GARCIA">Marcio Garcia</option>
-						<option value="VEREADOR MARIO JUNIOR">Mario Junior</option>
-						<option value="VEREADOR PAULO MESSINA">Paulo Messina</option>
-						<option value="VEREADOR PAULO PINHEIRO">Paulo Pinheiro</option>
-						<option value="VEREADOR PROF. UOSTON">Prof. Uoston</option>
-						<option value="VEREADOR PROF. CELIO LUPPARELLI">Prof.Célio Lupparelli </option>
-						<option value="VEREADOR PROFESSOR ROGERIO ROCAL">Professor Rogério Rocal</option>
-						<option value="VEREADOR RAFAEL ALOISIO FREITAS">Rafael Aloisio Freitas</option>
-						<option value="VEREADOR RAPHAEL GATTAS">Raphael Gattás</option>
-						<option value="VEREADOR REIMONT">Reimont</option>
-						<option value="VEREADOR RENATO CINCO">Renato Cinco</option>
-						<option value="VEREADOR RENATO MOURA">Renato Moura</option>
-						<option value="VEREADORA ROSA FERNANDES">Rosa Fernandes</option>
-						<option value="VEREADOR S. FERRAZ">S. Ferraz</option>
-						<option value="VEREADORA TANIA BASTOS">Tânia Bastos</option>
-						<option value="VEREADORA TERESA BERGHER">Teresa Bergher</option>
-						<option value="VEREADOR THIAGO K. RIBEIRO">Thiago K. Ribeiro</option>
-						<option value="VEREADORA VERA LINS">Vera Lins</option>
-						<option value="VEREADORA VERONICA COSTA">Veronica Costa</option>
-						<option value="VEREADOR WILLIAN COELHO">Willian Coelho</option>
-						<option value="VEREADOR ZICO">Zico</option>
-					</select>
-					<div id="container-details">
+						<!-- These options were generated with the `generate_politicians_select_html` script. -->
+						<select id="select-politician" class="form-control">
+							<option value="VEREADOR ALEXANDRE ISQUIERDO">Alexandre Isquierdo</option>
+							<option value="VEREADOR ATILA A. NUNES">Atila A. Nunes</option>
+							<option value="VEREADOR BABA">Babá</option>
+							<option value="VEREADOR CARLO CAIADO">Carlo Caiado</option>
+							<option value="VEREADOR CARLOS BOLSONARO">Carlos Bolsonaro</option>
+							<option value="VEREADOR CESAR MAIA">Cesar Maia</option>
+							<option value="VEREADOR CHIQUINHO BRAZAO">Chiquinho Brazão</option>
+							<option value="VEREADOR DR. CARLOS EDUARDO">Dr. Carlos Eduardo</option>
+							<option value="VEREADOR DR. EDUARDO MOURA">Dr. Eduardo Moura</option>
+							<option value="VEREADOR DR. GILBERTO">Dr. Gilberto</option>
+							<option value="VEREADOR DR. JAIRINHO">Dr. Jairinho</option>
+							<option value="VEREADOR DR. JOAO RICARDO">Dr. João Ricardo</option>
+							<option value="VEREADOR DR. JORGE MANAIA">Dr. Jorge Manaia</option>
+							<option value="VEREADOR EDSON ZANATA">Edson Zanata</option>
+							<option value="VEREADOR EDUARDAO">Eduardão</option>
+							<option value="VEREADOR ELISEU KESSLER">Eliseu Kessler</option>
+							<option value="VEREADOR ELTON BABU">Elton Babú</option>
+							<option value="VEREADOR JEFFERSON MOURA">Jefferson Moura</option>
+							<option value="VEREADOR JIMMY PEREIRA">Jimmy Pereira</option>
+							<option value="VEREADOR JOAO CABRAL">João Cabral</option>
+							<option value="VEREADOR JOAO MENDES DE JESUS">João Mendes de Jesus</option>
+							<option value="VEREADOR JORGE BRAZ">Jorge Braz</option>
+							<option value="VEREADOR JORGE FELIPPE">Jorge Felippe</option>
+							<option value="VEREADOR JORGINHO DA SOS">Jorginho da S.O.S.</option>
+							<option value="VEREADOR JUNIOR DA LUCINHA">Junior da Lucinha</option>
+							<option value="VEREADORA LEILA DO FLAMENGO">Leila do Flamengo</option>
+							<option value="VEREADOR LEONEL BRIZOLA NETO">Leonel Brizola Neto</option>
+							<option value="VEREADOR MARCELINO D'ALMEIDA">Marcelino D Almeida</option>
+							<option value="VEREADOR MARCELO ARAR">Marcelo Arar</option>
+							<option value="VEREADOR MARCELO PIUI">Marcelo Piuí</option>
+							<option value="VEREADOR MARCIO GARCIA">Marcio Garcia</option>
+							<option value="VEREADOR MARIO JUNIOR">Mario Junior</option>
+							<option value="VEREADOR PAULO MESSINA">Paulo Messina</option>
+							<option value="VEREADOR PAULO PINHEIRO">Paulo Pinheiro</option>
+							<option value="VEREADOR PROF. UOSTON">Prof. Uoston</option>
+							<option value="VEREADOR PROF. CELIO LUPPARELLI">Prof.Célio Lupparelli </option>
+							<option value="VEREADOR PROFESSOR ROGERIO ROCAL">Professor Rogério Rocal</option>
+							<option value="VEREADOR RAFAEL ALOISIO FREITAS">Rafael Aloisio Freitas</option>
+							<option value="VEREADOR RAPHAEL GATTAS">Raphael Gattás</option>
+							<option value="VEREADOR REIMONT">Reimont</option>
+							<option value="VEREADOR RENATO CINCO">Renato Cinco</option>
+							<option value="VEREADOR RENATO MOURA">Renato Moura</option>
+							<option value="VEREADORA ROSA FERNANDES">Rosa Fernandes</option>
+							<option value="VEREADOR S. FERRAZ">S. Ferraz</option>
+							<option value="VEREADORA TANIA BASTOS">Tânia Bastos</option>
+							<option value="VEREADORA TERESA BERGHER">Teresa Bergher</option>
+							<option value="VEREADOR THIAGO K. RIBEIRO">Thiago K. Ribeiro</option>
+							<option value="VEREADORA VERA LINS">Vera Lins</option>
+							<option value="VEREADORA VERONICA COSTA">Veronica Costa</option>
+							<option value="VEREADOR WILLIAN COELHO">Willian Coelho</option>
+							<option value="VEREADOR ZICO">Zico</option>
+						</select>
+						<div id="container-details">
+						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -120,23 +128,19 @@ html {
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div id="container-map">
-					</div>
-					<div id="container-progress-bar-map">
-						<p>Carregando mapa...</p>
-						<div class="progress" id="progress-bar-map">
-							<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-								<span class="sr-only">60% Complete</span>
-							</div>
-						</div>
+		</div>
+		<div style="background-color:white;padding-bottom:5em">
+			<div id="container-map">
+			</div>
+			<div id="container-progress-bar-map">
+				<p>Carregando mapa...</p>
+				<div class="progress" id="progress-bar-map">
+					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+						<span class="sr-only">60% Complete</span>
 					</div>
 				</div>
 			</div>
 		</div>
-		<footer style="width:100%;background-color:#f9d068;min-height:100px">
-		</footer>
 		<!-- Vendor scripts -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js"></script>
