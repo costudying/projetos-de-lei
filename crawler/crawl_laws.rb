@@ -124,11 +124,11 @@ end
 
 [
   Crawler.new("simples","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm"),
-  # Crawler.new("compl","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm"),
-  # Crawler.new("org","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm"),
+  Crawler.new("compl","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiCompInt?OpenForm"),
+  Crawler.new("org","http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/EmendaInt?OpenForm"),
     # Crawler.new("projeto-lei-decr-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/DecretoInt?OpenForm"),
     # Crawler.new("projeto-lei-resol-2013-2016", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/ResolucaoInt?OpenForm"),
-  # Crawler.new("ind", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/IndInt?OpenForm")
+  Crawler.new("ind", "http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/IndInt?OpenForm")
 ].each do |crawler|
   crawler.crawl
 end
