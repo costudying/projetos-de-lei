@@ -1,0 +1,101 @@
+[2016-09-30T10:56:34-03:00] - CRAWLING simples
+[2016-09-30T10:56:34-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1
+[2016-09-30T10:56:34-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:56:34-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=100
+[2016-09-30T10:56:34-03:00] - sleeping for 5sec...
+[2016-09-30T10:56:39-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=100
+[2016-09-30T10:56:39-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:56:39-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=199
+[2016-09-30T10:56:39-03:00] - sleeping for 5sec...
+[2016-09-30T10:56:44-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=199
+[2016-09-30T10:56:45-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:56:45-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=298
+[2016-09-30T10:56:45-03:00] - sleeping for 5sec...
+[2016-09-30T10:56:50-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=298
+[2016-09-30T10:56:50-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:56:50-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=397
+[2016-09-30T10:56:50-03:00] - sleeping for 5sec...
+[2016-09-30T10:56:55-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=397
+[2016-09-30T10:56:55-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:56:55-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=496
+[2016-09-30T10:56:55-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:00-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=496
+[2016-09-30T10:57:00-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:00-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=595
+[2016-09-30T10:57:00-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:05-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=595
+[2016-09-30T10:57:06-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:06-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=694
+[2016-09-30T10:57:06-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:11-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=694
+[2016-09-30T10:57:11-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:11-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=793
+[2016-09-30T10:57:11-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:16-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=793
+[2016-09-30T10:57:16-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:16-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=892
+[2016-09-30T10:57:16-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:21-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=892
+[2016-09-30T10:57:22-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:22-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=991
+[2016-09-30T10:57:22-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:27-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=991
+[2016-09-30T10:57:27-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:27-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1090
+[2016-09-30T10:57:27-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:32-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1090
+[2016-09-30T10:57:32-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:32-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1189
+[2016-09-30T10:57:32-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:37-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1189
+[2016-09-30T10:57:37-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:37-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1288
+[2016-09-30T10:57:37-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:42-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1288
+[2016-09-30T10:57:43-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:43-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1387
+[2016-09-30T10:57:43-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:48-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1387
+[2016-09-30T10:57:48-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:48-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1486
+[2016-09-30T10:57:48-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:53-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1486
+[2016-09-30T10:57:53-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:53-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1585
+[2016-09-30T10:57:53-03:00] - sleeping for 5sec...
+[2016-09-30T10:57:58-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1585
+[2016-09-30T10:57:59-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:57:59-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1684
+[2016-09-30T10:57:59-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:04-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1684
+[2016-09-30T10:58:04-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:04-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1783
+[2016-09-30T10:58:04-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:09-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1783
+[2016-09-30T10:58:09-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:09-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1882
+[2016-09-30T10:58:09-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:14-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1882
+[2016-09-30T10:58:15-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:15-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1981
+[2016-09-30T10:58:15-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:20-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=1981
+[2016-09-30T10:58:20-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:20-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2080
+[2016-09-30T10:58:20-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:25-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2080
+[2016-09-30T10:58:25-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:25-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2179
+[2016-09-30T10:58:25-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:30-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2179
+[2016-09-30T10:58:31-03:00] - SUCCESS: 100 projects
+[2016-09-30T10:58:31-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2278
+[2016-09-30T10:58:31-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:36-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2278
+[2016-09-30T10:58:36-03:00] - SUCCESS: 98 projects
+[2016-09-30T10:58:36-03:00] - next URL is OK: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2375
+[2016-09-30T10:58:36-03:00] - sleeping for 5sec...
+[2016-09-30T10:58:41-03:00] - crawling URL: http://mail.camara.rj.gov.br/APL/Legislativos/scpro1316.nsf/Internet/LeiInt?OpenForm&Start=2375
+[2016-09-30T10:58:41-03:00] - SUCCESS: 1 projects
+[2016-09-30T10:58:41-03:00] - WARNING! Next URL is the same, this means we've reached the end OR we're being rate limited
+[2016-09-30T10:58:41-03:00] - terminating...
