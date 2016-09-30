@@ -59,7 +59,7 @@ class Crawler
     end
   end
 
-  def crawl_page(**opts)
+  def crawl_page(opts)
     url = if opts[:page]
       url_for_page(opts[:page])
     elsif opts[:url]
@@ -108,7 +108,7 @@ class Crawler
         log "- sleeping for 30sec..."
         sleep(30)
       end
-      return projects + self.crawl_page(url: next_page_url)
+      return projects + self.crawl_page({url: next_page_url})
     rescue Exception => msg
       log "- ERROR: #{msg}"
         log "- sleeping for 30sec..."
