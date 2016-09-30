@@ -1,12 +1,17 @@
 Templates={};
-function showModal(title,body){
-	$(".modal-title").html(title);
-	$(".modal-body").html(body);
+function showModal(kind){
+	$(".list-group").hide();
+	$(".list-group."+kind).show();
 	$(".modal").modal();
 }
 
 (function () {
 	"use strict";
+
+	function updateModal(id,laws){
+		$(".modal-title").html(id);
+		$(".modal-body").html(Templates.modal({politician: dataByPoliticianId[id],laws: laws}));
+	}
 
 	$(document).ready(function () {
 		$("#container-progress-bar-map").hide();
@@ -186,6 +191,8 @@ function showModal(title,body){
 	$("#select-politician").on("change", function () {
 		var id = $(this).val();
 		if(dataByPoliticianId[id]){
+			$(".partyBackground").css("background-image","url(\"assets/img-party/"+dataByPoliticianId[id].party+".jpg\")");
+			$(".partyBackground").css("background-size","300px");
 			$(".politician-data").addClass("col-md-6");
 			var phone = dataByPoliticianId[id].phone;
 			var email = dataByPoliticianId[id].email;
@@ -196,6 +203,7 @@ function showModal(title,body){
 			$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
 			loadLaws(id, function (laws) {
 				$("#container-laws").html(Templates.laws({organic: laws.organic, complementary: laws.complementary,simple: laws.simple}));
+				updateModal(id,laws);
 			});
 			loadIndications(id);
 		}

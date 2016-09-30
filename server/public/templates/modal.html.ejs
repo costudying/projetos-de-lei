@@ -1,0 +1,45 @@
+<div class="list-group organic">
+	<% laws.organic.forEach(function(law){ %>
+		<div class="list-group-item">
+			<b class="list-group-item-heading">
+				<a href="//mail.camara.rj.gov.br<%= law.url%>" target="_blank"><%= law.id %></a>
+			</b>
+			<small>
+				<%= law.date %>
+			</small>
+			<p class="list-group-item-text">
+				<%= law.description.split("=>")[0] %>
+			</p>
+		</div>
+	<% }) %>
+</div>
+<div class="list-group complementary">
+	<% laws.complementary.forEach(function(law){ %>
+		<div class="list-group-item">
+			<b class="list-group-item-heading">
+				<a href="//mail.camara.rj.gov.br<%= law.url%>" target="_blank"><%= law.id %></a>
+			</b>
+			<small>
+				<%= law.date %>
+			</small>
+			<p class="list-group-item-text">
+				<%= law.description.split("=>")[0] %>
+			</p>
+		</div>
+	<% }) %>
+</div>
+<div class="list-group simple">
+	<% laws.simple.forEach(function(law){ %>
+		<div class="list-group-item">
+			<b class="list-group-item-heading">
+				<a href="//mail.camara.rj.gov.br<%= law.url%>" target="_blank"><%= law.id %></a>
+			</b>
+			<small>
+				<%= law.date %>
+			</small>
+			<p class="list-group-item-text">
+				<%= law.description.split("=>")[0] %>
+			</p>
+		</div>
+	<% }) %>
+</div>

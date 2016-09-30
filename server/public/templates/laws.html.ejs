@@ -1,24 +1,24 @@
 <div class="col-sm-6">
-	<div class="panel panel-default" style="text-align:center;padding:20px">
-		<h1 onclick="showModal('Leis Orgânicas','louco')"     class="laws-counter clickable">
+	<button onclick="showModal('organic')" class="btn btn-default btn-block" style="text-align:center;padding:20px">
+		<h1 class="laws-counter clickable">
 			<%=(organic||[]).length %>
 		</h1>
-		<b onclick="showModal('Leis Orgânicas','louco')" class="clickable">orgânicas</b>
-	</div>
+		<b onclick="showModal()" class="clickable">orgânicas</b>
+	</button>
 </div>
 <div class="col-sm-6">
-	<div class="panel panel-default" style="text-align:center;padding:20px">
-		<h1 onclick="showModal('Leis Orgânicas','louco')"     class="laws-counter clickable">
+	<button onclick="showModal('complementary')" class="btn btn-default btn-block" style="text-align:center;padding:20px">
+		<h1 class="laws-counter clickable">
 			<%=(complementary||[]).length %>
 		</h1>
-		<b onclick="showModal('Leis Orgânicas','louco')" class="clickable">complementares</b>
-	</div>
+		<b onclick="showModal()" class="clickable">complementares</b>
+	</button>
 </div>
-<div class="col-sm-6">
-	<div class="panel panel-default" style="text-align:center;padding:20px">
-		<h1 onclick="showModal('Leis Orgânicas','louco')"     class="laws-counter clickable">
+<div class="col-sm-12">
+	<button onclick="showModal('simple')" class="btn btn-default btn-block" style="text-align:center;padding:20px;margin-top:2em">
+		<h1 class="laws-counter clickable">
 			<%=(simple||[]).length %>
 		</h1>
-		<b onclick="showModal('Leis Orgânicas','louco')" class="clickable">ordinárias</b>
-	</div>
+		<b onclick="showModal()" class="clickable">ordinárias</b>
+	</button>
 </div>
