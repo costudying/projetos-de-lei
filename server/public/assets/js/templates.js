@@ -24,7 +24,7 @@ Templates["modal"]=function(scope){
 	with(scope||{}){
 		var _out = [];
 		_out.push("<div class=\"list-group organic\">\n\t");
-	 laws.organic.forEach(function(law){ ;
+	 (laws.organic||[]).forEach(function(law){ ;
 	_out.push("\n\t\t<div class=\"list-group-item\">\n\t\t\t<b class=\"list-group-item-heading\">\n\t\t\t\t<a href=\"//mail.camara.rj.gov.br");
 			_out.push(escapeHtml( law.url));
 			_out.push("\" target=\"_blank\">");
@@ -36,7 +36,7 @@ Templates["modal"]=function(scope){
 			_out.push("\n\t\t\t</p>\n\t\t</div>\n\t");
 	 }) ;
 	_out.push("\n</div>\n<div class=\"list-group complementary\">\n\t");
-	 laws.complementary.forEach(function(law){ ;
+	 (laws.complementary||[]).forEach(function(law){ ;
 	_out.push("\n\t\t<div class=\"list-group-item\">\n\t\t\t<b class=\"list-group-item-heading\">\n\t\t\t\t<a href=\"//mail.camara.rj.gov.br");
 			_out.push(escapeHtml( law.url));
 			_out.push("\" target=\"_blank\">");
@@ -48,7 +48,7 @@ Templates["modal"]=function(scope){
 			_out.push("\n\t\t\t</p>\n\t\t</div>\n\t");
 	 }) ;
 	_out.push("\n</div>\n<div class=\"list-group simple\">\n\t");
-	 laws.simple.forEach(function(law){ ;
+	 (laws.simple||[]).forEach(function(law){ ;
 	_out.push("\n\t\t<div class=\"list-group-item\">\n\t\t\t<b class=\"list-group-item-heading\">\n\t\t\t\t<a href=\"//mail.camara.rj.gov.br");
 			_out.push(escapeHtml( law.url));
 			_out.push("\" target=\"_blank\">");
@@ -123,11 +123,11 @@ Templates["laws"]=function(scope){
 	  }
 	with(scope||{}){
 		var _out = [];
-		_out.push("<div class=\"col-sm-6\">\n\t<button onclick=\"showModal('organic')\" class=\"btn btn-default btn-block\" style=\"text-align:center;padding:20px\">\n\t\t<h1 class=\"laws-counter clickable\">\n\t\t\t");
+		_out.push("<div class=\"col-sm-12\">\n\t<button onclick=\"showModal('organic')\" class=\"btn btn-default btn-block\" style=\"text-align:center;padding:20px;margin-bottom:2em\">\n\t\t<h1 class=\"laws-counter clickable\">\n\t\t\t");
 			_out.push(escapeHtml((organic||[]).length ));
 			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal()\" class=\"clickable\">orgânicas</b>\n\t</button>\n</div>\n<div class=\"col-sm-6\">\n\t<button onclick=\"showModal('complementary')\" class=\"btn btn-default btn-block\" style=\"text-align:center;padding:20px\">\n\t\t<h1 class=\"laws-counter clickable\">\n\t\t\t");
 			_out.push(escapeHtml((complementary||[]).length ));
-			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal()\" class=\"clickable\">complementares</b>\n\t</button>\n</div>\n<div class=\"col-sm-12\">\n\t<button onclick=\"showModal('simple')\" class=\"btn btn-default btn-block\" style=\"text-align:center;padding:20px;margin-top:2em\">\n\t\t<h1 class=\"laws-counter clickable\">\n\t\t\t");
+			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal()\" class=\"clickable\">complementares</b>\n\t</button>\n</div>\n<div class=\"col-sm-6\">\n\t<button onclick=\"showModal('simple')\" class=\"btn btn-default btn-block\" style=\"text-align:center;padding:20px\">\n\t\t<h1 class=\"laws-counter clickable\">\n\t\t\t");
 			_out.push(escapeHtml((simple||[]).length ));
 			_out.push("\n\t\t</h1>\n\t\t<b onclick=\"showModal()\" class=\"clickable\">ordinárias</b>\n\t</button>\n</div>\n");
 		return _out.join("");

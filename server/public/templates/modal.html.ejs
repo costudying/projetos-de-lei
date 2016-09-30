@@ -1,5 +1,5 @@
 <div class="list-group organic">
-	<% laws.organic.forEach(function(law){ %>
+	<% (laws.organic||[]).forEach(function(law){ %>
 		<div class="list-group-item">
 			<b class="list-group-item-heading">
 				<a href="//mail.camara.rj.gov.br<%= law.url%>" target="_blank"><%= law.id %></a>
@@ -14,7 +14,7 @@
 	<% }) %>
 </div>
 <div class="list-group complementary">
-	<% laws.complementary.forEach(function(law){ %>
+	<% (laws.complementary||[]).forEach(function(law){ %>
 		<div class="list-group-item">
 			<b class="list-group-item-heading">
 				<a href="//mail.camara.rj.gov.br<%= law.url%>" target="_blank"><%= law.id %></a>
@@ -29,7 +29,7 @@
 	<% }) %>
 </div>
 <div class="list-group simple">
-	<% laws.simple.forEach(function(law){ %>
+	<% (laws.simple||[]).forEach(function(law){ %>
 		<div class="list-group-item">
 			<b class="list-group-item-heading">
 				<a href="//mail.camara.rj.gov.br<%= law.url%>" target="_blank"><%= law.id %></a>
