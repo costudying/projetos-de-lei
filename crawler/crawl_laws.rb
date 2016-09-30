@@ -105,14 +105,14 @@ class Crawler
         sleep(5 * 60)
       else
         log "- next URL is OK: #{next_page_url}"
-        log "- sleeping for 10sec..."
-        sleep(10)
+        log "- sleeping for 30sec..."
+        sleep(30)
       end
       return projects + self.crawl_page(url: next_page_url)
     rescue Exception => msg
       log "- ERROR: #{msg}"
-        log "- sleeping for 10sec..."
-      sleep(10)
+        log "- sleeping for 30sec..."
+      sleep(30)
       return []
     end
   end
