@@ -21,8 +21,28 @@ end
 #   keys = [:org, :comp, :simp]
 # end
 
-def gen_author_to_name data_by_author
+def merge_data data_by_author, politicians_by_name
+  merged_data_by_author = {}
+  names = politicians_by_name.keys
   authors = data_by_author.keys
+  log("Names: #{names.count}")
+  log("Authors: #{authors.count}")
+
+  fuzzy_match = FuzzyMatch.new(authors)
+  names.each do |name|
+    normalized_name = "vereador_" + normalize(name)
+    author = fuzzy_match.find(normalized_name)
+    log("Fuzzy match: '#{name}' -> '#{author}'")
+    merged_data_by_author[author] = {
+      info: politicians_by_name[name],
+      indications: data_by_author[author][:ind],
+      organic: data_by_author[author][:org],
+      complementary: data_by_author[author][:comp],
+      simple: data_by_author[author][:simp]
+    }
+  end
+
+  merged_data_by_author
 end
 
 def main
@@ -62,6 +82,13 @@ def main
     log("\tcomplementary laws: #{data[:comp].count}")
     log("\tsimple laws: #{data[:simp].count}")
   end
+
+  politicians_by_name = {}
+  politicians.each do |poli|
+    politicians_by_name[poli["vereador"]] = poli
+  end
+
+  merged_data_by_author = merge_data(data_by_author, politicians_by_name)
 
   binding.pry
 end
