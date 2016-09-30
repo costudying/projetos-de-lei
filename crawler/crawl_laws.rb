@@ -5,6 +5,11 @@ require "json"
 class Crawler
   DATA_OUTPUT_PATH = "data"
 
+  def log(msg)
+    puts msg
+    File.open(@name + ".log", "a") { |f| f.puts("[#{DateTime.now.to_s}] #{msg}") }
+  end
+
   def initialize(name, url)
     @name = name
     @url = url
@@ -41,7 +46,7 @@ class Crawler
   end
 
   def crawl
-    puts "- CRAWLING #{@name}"
+    log "- CRAWLING #{@name}"
     projects = if @temp["last_successfully_crawled_url"].nil?
       self.start_crawling
     else
@@ -64,11 +69,11 @@ class Crawler
       # raise ArgumentError, "Need to specify either 'page' or 'url' option."
     end
     projects = []
-    puts "- crawling URL: #{url}"
+    log "- crawling URL: #{url}"
     begin
       next_page_url = Harvestman.crawl url do
         if !css("h2").empty?
-          puts "- END OF CRAWLING"
+          log "- END OF CRAWLING"
           return []
         end
 
@@ -93,20 +98,20 @@ class Crawler
       @temp["last_successfully_crawled_url"] = url
       @temp["crawled_data_by_url"][url] = projects
       save_json(temp_json_path(@name), @temp)
-      puts "- SUCCESS: #{projects.count} projects"
+      log "- SUCCESS: #{projects.count} projects"
       if next_page_url === url
-        puts "- WARNING! Next URL is the same: #{next_page_url}"
-        puts "- sleeping for 5min..."
+        log "- WARNING! Next URL is the same: #{next_page_url}"
+        log "- sleeping for 5min..."
         sleep(5 * 60)
       else
-        puts "- next URL is OK: #{next_page_url}"
-        puts "- sleeping for 10sec..."
+        log "- next URL is OK: #{next_page_url}"
+        log "- sleeping for 10sec..."
         sleep(10)
       end
       return projects + self.crawl_page(url: next_page_url)
     rescue Exception => msg
-      puts "- ERROR: #{msg}"
-        puts "- sleeping for 10sec..."
+      log "- ERROR: #{msg}"
+        log "- sleeping for 10sec..."
       sleep(10)
       return []
     end
