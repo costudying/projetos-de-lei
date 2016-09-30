@@ -188,6 +188,7 @@ function showModal(title,body){
 				var phone = dataByPoliticianId[id].phone;
 				var email = dataByPoliticianId[id].email;
 				var party = dataByPoliticianId[id].party;
+				$(".politician-picture").attr("src","assets/imgs/"+id.replace(/\ /g,"_")+".jpg");
 				console.log(id, phone, email, party);
 				$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
 				loadLaws(id, function (laws) {
