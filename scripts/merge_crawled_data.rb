@@ -13,6 +13,10 @@ def load_json path
   JSON.parse(File.read(path))
 end
 
+def save_json path, obj
+  File.open(path, "w") { |f| f.puts(JSON.generate(obj)) }
+end
+
 def normalize author
   I18n.transliterate(author).gsub(".", " ").gsub("'", " ").split(/\s+/).join("_").downcase
 end
@@ -35,10 +39,10 @@ def merge_data data_by_author, politicians_by_name
     log("Fuzzy match: '#{name}' -> '#{author}'")
     merged_data_by_author[author] = {
       info: politicians_by_name[name],
-      indications: data_by_author[author][:ind],
-      organic: data_by_author[author][:org],
-      complementary: data_by_author[author][:comp],
-      simple: data_by_author[author][:simp]
+      indications: [], #data_by_author[author][:ind],
+      organic: data_by_author[author][:org].count,
+      complementary: data_by_author[author][:comp].count,
+      simple: data_by_author[author][:simp].count
     }
   end
 
@@ -90,6 +94,6 @@ def main
 
   merged_data_by_author = merge_data(data_by_author, politicians_by_name)
 
-  binding.pry
+  save_json("../data/generated/data_by_politician_id.json", merged_data_by_author)
 end
 main
