@@ -1,8 +1,16 @@
+Templates={};
+function showModal(title,body){
+	$(".modal-title").html(title);
+	$(".modal-body").html(body);
+	$(".modal").modal();
+}
+
 (function () {
 	"use strict";
 
 	$(document).ready(function () {
 		$("#container-progress-bar-map").hide();
+		$("#select-politician").removeClass("form-control");
 		$("#select-politician").selectize({
 			sortField: 'text'
 		});
@@ -16,29 +24,6 @@
 		zoom: 13,
 		hash: true
 	});
-
-	var Component = {
-		details: function (party, email, phone) {
-			var __ = HTMLBuilder;
-			var detailsHTML =
-				__.ul(
-					__.li(__.b("Partido: "), party),
-					__.li(__.b("Email: "), email),
-					__.li(__.b("Tel.: "), phone)
-				);
-			return $.parseHTML(detailsHTML);
-		},
-		laws: function (laws) {
-			var __ = HTMLBuilder;
-			var lawsHTML =
-				__.div(
-					__.div({class: "col-sm-6" },__.div({class: "panel panel-default",style: "text-align:center;padding:20px"},__.h1({class: "laws-counter"}, laws.organic.length.toString()      ), __.b('orgânicas')     )),
-					__.div({class: "col-sm-6" },__.div({class: "panel panel-default",style: "text-align:center;padding:20px"},__.h1({class: "laws-counter"}, laws.complementary.length.toString()), __.b('complementares'))),
-					__.div({class: "col-sm-12" },__.div({class: "panel panel-default",style: "text-align:center;padding:20px"},__.h1({class: "laws-counter"}, laws.simple.length.toString()       ), __.b('ordinárias')    ))
-				);
-			return $.parseHTML(lawsHTML);
-		}
-	};
 
 	function convertToKMLNeighborhoodNames(nameFromIndication) {
 		return _
@@ -149,6 +134,8 @@
 	}
 
 	function renderMap(indications) {
+		$("#container-map").css("visibility","visible");
+		$("#container-map").css("position","relative");
 		var neighborhoods = [];
 		_.each(indications, function (ind) {
 			neighborhoods.push(convertToKMLNeighborhoodNames(ind.neighborhood));
@@ -196,24 +183,25 @@
 		});
 	}
 
+	$("#select-politician").on("change", function () {
+		var id = $(this).val();
+		if(dataByPoliticianId[id]){
+			$(".politician-data").addClass("col-md-6");
+			var phone = dataByPoliticianId[id].phone;
+			var email = dataByPoliticianId[id].email;
+			var party = dataByPoliticianId[id].party;
+			$(".politician-picture").css("background","url(\"assets/imgs/"+id.replace(/\ /g,"_")+".jpg\")");
+			$(".politician-picture").css("background-size","cover");
+			console.log(id, phone, email, party);
+			$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
+			loadLaws(id, function (laws) {
+				$("#container-laws").html(Templates.laws({organic: laws.organic, complementary: laws.complementary,simple: laws.simple}));
+			});
+			loadIndications(id);
+		}
+	});
 	map.on('load', function () {
 		console.log("[*] Map loaded.");
-		$( document ).ready(function () {
-			$("#select-politician").on("change", function () {
-				var id = $(this).val();
-				var phone = dataByPoliticianId[id].phone;
-				var email = dataByPoliticianId[id].email;
-				var party = dataByPoliticianId[id].party;
-				console.log(id, phone, email, party);
-				$("#container-details").empty();
-				$("#container-details").append( Component.details(party, email, phone) );
-				loadLaws(id, function (laws) {
-					$("#container-laws").empty();
-					$("#container-laws").append( Component.laws(laws) );
-				});
-				loadIndications(id);
-			});
-		});
 	});
 
 	var maxIndicationsPerNeighborhoodKMLName = {
