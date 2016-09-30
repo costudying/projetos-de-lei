@@ -100,19 +100,21 @@ class Crawler
       save_json(temp_json_path(@name), @temp)
       log "- SUCCESS: #{projects.count} projects"
       if next_page_url === url
-        log "- WARNING! Next URL is the same: #{next_page_url}"
-        log "- sleeping for 5min..."
-        sleep(5 * 60)
+        log "- WARNING! Next URL is the same, this means we've reached the end OR we're being rate limited"
+        log "- terminating..."
+        # log "- sleeping for 5min..."
+        # sleep(5 * 60)
+        return projects
       else
         log "- next URL is OK: #{next_page_url}"
-        log "- sleeping for 30sec..."
-        sleep(30)
+        log "- sleeping for 5sec..."
+        sleep(5)
+        return projects + self.crawl_page(url: next_page_url)
       end
-      return projects + self.crawl_page(url: next_page_url)
     rescue Exception => msg
       log "- ERROR: #{msg}"
-        log "- sleeping for 30sec..."
-      sleep(30)
+        log "- sleeping for 5sec..."
+      sleep(5)
       return []
     end
   end
