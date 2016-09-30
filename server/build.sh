@@ -1,0 +1,1 @@
+find ./public/templates/ -name "*.html.ejs" -type f |xargs  ruby -e "puts ARGV.map{|b| \"#{b} Templates #{b.gsub(/^.*templates\//,\"\").gsub(/\..*\$/,\"\")}\"}"| xargs -L 1 ./Parser.rb > ./public/assets/js/templates.js

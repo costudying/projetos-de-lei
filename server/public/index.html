@@ -31,6 +31,19 @@ html {
 		</style>
 	</head>
 	<body>
+		<div class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body"></div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		<nav style="width:100%;background-color:#f9d068;min-height:100px">
 		</nav>
 		<div class="container">
@@ -124,9 +137,11 @@ html {
 		<script type="text/javascript" src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
 		<script type="text/javascript" src="assets/js/selectize.min.js"></script>
 		<script type="text/javascript" src="assets/js/chroma.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src='assets/js/togeojson.js' type="text/javascript"></script>
 		<!-- Our main script -->
 		<script src='assets/js/html-builder.js' type="text/javascript"></script>
 		<script src='assets/js/meuvereador.js' type="text/javascript"></script>
+		<script src='assets/js/templates.js' type="text/javascript"></script>
 	</body>
 </html>

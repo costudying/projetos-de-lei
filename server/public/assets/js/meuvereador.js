@@ -1,3 +1,10 @@
+Templates={};
+function showModal(title,body){
+	$(".modal-title").html(title);
+	$(".modal-body").html(body);
+	$(".modal").modal();
+}
+
 (function () {
 	"use strict";
 
@@ -16,29 +23,6 @@
 		zoom: 13,
 		hash: true
 	});
-
-	var Component = {
-		details: function (party, email, phone) {
-			var __ = HTMLBuilder;
-			var detailsHTML =
-				__.ul(
-					__.li(__.b("Partido: "), party),
-					__.li(__.b("Email: "), email),
-					__.li(__.b("Tel.: "), phone)
-				);
-			return $.parseHTML(detailsHTML);
-		},
-		laws: function (laws) {
-			var __ = HTMLBuilder;
-			var lawsHTML =
-				__.div(
-					__.div({class: "col-sm-6" },__.div({class: "panel panel-default",style: "text-align:center;padding:20px"},__.h1({class: "laws-counter"}, laws.organic.length.toString()      ), __.b('orgânicas')     )),
-					__.div({class: "col-sm-6" },__.div({class: "panel panel-default",style: "text-align:center;padding:20px"},__.h1({class: "laws-counter"}, laws.complementary.length.toString()), __.b('complementares'))),
-					__.div({class: "col-sm-12" },__.div({class: "panel panel-default",style: "text-align:center;padding:20px"},__.h1({class: "laws-counter"}, laws.simple.length.toString()       ), __.b('ordinárias')    ))
-				);
-			return $.parseHTML(lawsHTML);
-		}
-	};
 
 	function convertToKMLNeighborhoodNames(nameFromIndication) {
 		return _
@@ -205,11 +189,9 @@
 				var email = dataByPoliticianId[id].email;
 				var party = dataByPoliticianId[id].party;
 				console.log(id, phone, email, party);
-				$("#container-details").empty();
-				$("#container-details").append( Component.details(party, email, phone) );
+				$("#container-details").html(Templates.profile(dataByPoliticianId[id]));
 				loadLaws(id, function (laws) {
-					$("#container-laws").empty();
-					$("#container-laws").append( Component.laws(laws) );
+					$("#container-laws").html(Templates.laws(laws));
 				});
 				loadIndications(id);
 			});
