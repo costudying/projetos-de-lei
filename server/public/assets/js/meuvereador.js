@@ -37,8 +37,8 @@ function showModal(kind){
 	var map = new mapboxgl.Map({
 		container: 'container-map',
 		style: 'mapbox://styles/mapbox/streets-v9',
-		center: [-43.414047, -22.907193],
-		zoom: 13,
+		center: [-43.3464, -22.9414],
+		zoom: 10,
 		hash: true
 	});
 
@@ -203,8 +203,8 @@ function showModal(kind){
 	$("#select-politician").on("change", function () {
 		var id = $(this).val();
 		if(dataByPoliticianId[id]){
-			$(".partyBackground").css("background-image","url(\"assets/img-party/"+dataByPoliticianId[id].party+".jpg\")");
-			$(".partyBackground").css("background-size","300px");
+			$(".partyBackground").css("background-image","url(\"assets/img-party/"+dataByPoliticianId[id].party+".png\")");
+			$(".partyBackground").css("background-size","100px");
 			$(".politician-data").addClass("col-md-6");
 			var phone = dataByPoliticianId[id].phone;
 			var email = dataByPoliticianId[id].email;
